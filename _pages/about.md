@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a third-year undergraduate student studying in School of Data Science and Engineering @East China Normal University and I am currently doing research under the supervision of associate professor [Yang Shu](https://shuyang96.github.io/) and studying more about Time Series Forcasting & Multimodal Model & Agent & A little CV.
+I am currently a third-year undergraduate student studying in School of Data Science and Engineering @East China Normal University and I am currently doing research under the supervision of associate professor [Yang Shu](https://shuyang96.github.io/) and studying more about Time Series Problems & Multimodal Model & Agent & A little CV.
 
 
 🫡 News
