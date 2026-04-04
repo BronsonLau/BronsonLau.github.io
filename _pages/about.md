@@ -12,23 +12,25 @@ I am currently a third-year undergraduate student studying in School of Data Sci
 
 🫡 News
 ======
+Will be updated soon ...
 
 
 Educations
 ======
-
+Will be updated soon ...
 
 Projects & Exploring
 ======
-
+Will be updated soon ...
 
 Preprints
 ======
-
+Will be updated soon ...
 
 Publications
 ======
-
+Will be updated soon ...
 
 Internships
 ======
+Will be updated soon ...
