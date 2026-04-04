@@ -23,10 +23,10 @@ repository               : "BronsonLau/BronsonLau.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "bl.png"
+  avatar           : "images/bl.png"
   name             : "Yu ke(柯宇/Bronson Lau)"
   # pronouns         : # example: "she/her"  
-  bio              : "I am currently a third-year undergraduate student studying in School of Data Science and Engineering @East China Normal University"
+  bio              : "Third-year undergraduate student, School of Data Science and Engineering @East China Normal University"
   location         : "Shanghai-China"
   employer         : "East China Normal University"
   uri              : # URL
