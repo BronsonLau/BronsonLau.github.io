@@ -374,6 +374,7 @@ Certificates & Abilities
     <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">IELTS</span>
     <span style="flex:1; color:var(--hp-body-text);">English-IELTS: 7.5 &nbsp;
   </div>
+</div>
 
 <div style="display:flex; flex-direction:column; gap:0.35em; margin:0.5em 0;">
 
@@ -381,6 +382,7 @@ Certificates & Abilities
     <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">CN-CET6</span>
     <span style="flex:1; color:var(--hp-body-text);">English-CET: 651 &nbsp;
   </div>
+</div>
 
 <div style="display:flex; flex-direction:column; gap:0.35em; margin:0.5em 0;">
 
@@ -388,6 +390,7 @@ Certificates & Abilities
     <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">CN-BETT</span>
     <span style="flex:1; color:var(--hp-body-text);">Elementary English Translator &nbsp;
   </div>
+</div>
   
 <div style="display:flex; flex-direction:column; gap:0.35em; margin:0.5em 0;">
 
@@ -395,6 +398,7 @@ Certificates & Abilities
     <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">CN-Mandarin</span>
     <span style="flex:1; color:var(--hp-body-text);">Mandarin Level II, Grade A &nbsp;
   </div>
+</div>
 
 
   <!-- CERTIFICATE TEMPLATE (copy and adapt):
