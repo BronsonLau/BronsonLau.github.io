@@ -113,7 +113,7 @@ Educations
     <div style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">East China Normal University</div>
     <div style="color:var(--hp-muted-text); font-size:0.93em;">B.E. in Data Science and Big Data Technology</div>
     <div style="color:var(--hp-dim-text); font-size:0.88em;">Sep. 2022 – Jun. 2027 (expected) &nbsp;|&nbsp; Shanghai, China</div>
-    <div style="margin-top:0.3em; font-size:0.9em; color:var(--hp-body-text);">GPA:  &nbsp;·&nbsp; Advisor: <a href="#">Prof. Name</a></div>
+    <div style="margin-top:0.3em; font-size:0.9em; color:var(--hp-body-text);">GPA: PRIVATE FOR NOW &nbsp;·&nbsp; Advisor: <a href="https://shuyang96.github.io/">Yang Shu</a>,<a href="https://faculty.ecnu.edu.cn/_s37/cyh2/main.psp">Yuhao Chen,<a href="#">Shuying Xing</a></div>
   </div>
 </div>
 
@@ -152,11 +152,35 @@ Projects & Exploring
       <span class="hp-tag">VUE3</span>
       &nbsp;
       <a href="https://github.com/BronsonLau/FusionVis_OcrPlatform" style="font-size:0.88em;">[Code]</a>
-      <a href="https://github.com/BronsonLau/FusionVis_OcrPlatform" style="font-size:0.88em; margin-left:6px;">Website</a>
+      <a href="#" style="font-size:0.88em; margin-left:6px;">[Website]</a>
     </div>
   </div>
   <div class="hp-img-slot">
     <img src="/images/fusionvis.png" alt="thumbnail" style="width:100%;height:100%;object-fit:cover;">
+  </div>
+</div>
+
+<div class="hp-card" style="border-top:3px solid var(--hp-accent); display:flex; align-items:flex-start;">
+  <div style="flex:1; min-width:0;">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.3em;">
+      <span style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">K-Ranking: An overall exploration based on Open-Digger data.</span>
+      <span style="color:var(--hp-dim-text); font-size:0.88em;">Nov. 2024 – Jan. 2025 </span>
+    </div>
+    <div style="margin:0.35em 0 0.5em; color:var(--hp-muted-text); font-size:0.93em;">
+      We analyzed the data of Open-Digger to provide an overall analysis of the most active and influential developers data using machine learning algorithms, visualizing the data, and providing a comprehensive report where a new metric was introduced.
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Kenan Wang</span>      
+    </div>
+    <div>
+      <span class="hp-tag">Python</span>
+      <span class="hp-tag">Sk-learn</span>
+      <span class="hp-tag">Society</span>
+      <span class="hp-tag">Opensource</span>
+      &nbsp;
+      <a href="https://github.com/BronsonLau/OpenRank_OpenSourceContribution" style="font-size:0.88em;">[Code]</a>
+    </div>
+  </div>
+  <div class="hp-img-slot">
+    <img src="/images/krank.png" alt="thumbnail" style="width:100%;height:100%;object-fit:cover;">
   </div>
 </div>
 
@@ -283,7 +307,7 @@ COMING SOON... -->
 -->
 
 
-Prizes
+Prizes & Scholarships
 ======
 
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
