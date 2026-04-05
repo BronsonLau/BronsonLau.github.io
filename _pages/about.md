@@ -82,8 +82,8 @@ html[data-theme="dark"] {
 
 🫡 News【TEMPLATE】
 ======
-COMING SOON
-------
+COMING SOON...
+
 
 <!-- NEWS TEMPLATE:
 
@@ -135,8 +135,7 @@ Educations
 Projects & Exploring
 ======
 
-COMING SOON
-------
+COMING SOON...
 
 <!-- PROJECT TEMPLATE:
 
@@ -169,8 +168,7 @@ COMING SOON
 Preprints【TEMPLATE】
 ======
 
-COMING SOON
-------
+COMING SOON...
 
 <!-- PREPRINT TEMPLATE:
 
@@ -204,8 +202,7 @@ COMING SOON
 Publications【TEMPLATE】
 ======
 
-COMING SOON
-------
+COMING SOON...
 
 <!-- PUBLICATION TEMPLATE:
 
@@ -242,8 +239,7 @@ COMING SOON
 Internships【TEMPLATE】
 ======
 
-COMING SOON
-------
+COMING SOON...
 
 <!-- INTERNSHIP TEMPLATE:
 
@@ -268,7 +264,7 @@ Prizes
 
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Scholarship</span>
-  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">China National Scholarship</div>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">China National Scholarship &nbsp;·&nbsp; MoE of China</div>
   <span class="hp-year-badge">2025</span>
 </div>
 
@@ -280,14 +276,20 @@ Prizes
 
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Scholarship</span>
-  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Special Academic Scholarship of ECNU</div>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Special Academic Scholarship &nbsp;·&nbsp; East China Normal University</div>
   <span class="hp-year-badge">2024</span>
 </div>
 
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Honor</span>
-  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Outstanding Student of ECNU</div>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Outstanding Student &nbsp;·&nbsp; East China Normal University</div>
   <span class="hp-year-badge-muted">2024</span>
+</div>
+
+<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
+  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Third Prize &nbsp;·&nbsp; National English Competition for College Students(Shanghai Division)</div>
+  <span class="hp-year-badge">20XX</span>
 </div>
 
 <!-- PRIZE TEMPLATE (copy and adapt):
