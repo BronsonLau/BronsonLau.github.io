@@ -368,49 +368,50 @@ Use hp-year-badge-muted instead of hp-year-badge for less prominent entries.
 Certificates & Abilities
 ======
 
-<div style="display:flex; flex-direction:column; gap:0.35em; margin:0.5em 0;">
+<div class="hp-card" style="padding:0.6em 1em; display:flex; flex-direction:column; gap:0;">
 
-  <div style="display:flex; align-items:baseline; gap:0.6em; padding:0.3em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
+  <div style="display:flex; align-items:center; gap:0.6em; padding:0.45em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
     <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">IELTS</span>
-    <span style="flex:1; color:var(--hp-body-text);">English-IELTS: 7.5 &nbsp;
+    <span style="flex:1; color:var(--hp-body-text);">English — IELTS 7.5</span>
   </div>
-</div>
 
-<div style="display:flex; flex-direction:column; gap:0.35em; margin:0.5em 0;">
-
-  <div style="display:flex; align-items:baseline; gap:0.6em; padding:0.3em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
+  <div style="display:flex; align-items:center; gap:0.6em; padding:0.45em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
     <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">CN-CET6</span>
-    <span style="flex:1; color:var(--hp-body-text);">English-CET: 651 &nbsp;
+    <span style="flex:1; color:var(--hp-body-text);">English — CET-6 &nbsp;<span style="color:var(--hp-dim-text); font-size:0.9em;">651</span></span>
   </div>
-</div>
 
-<div style="display:flex; flex-direction:column; gap:0.35em; margin:0.5em 0;">
-
-  <div style="display:flex; align-items:baseline; gap:0.6em; padding:0.3em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
+  <div style="display:flex; align-items:center; gap:0.6em; padding:0.45em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
     <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">CN-BETT</span>
-    <span style="flex:1; color:var(--hp-body-text);">Elementary English Translator &nbsp;
+    <span style="flex:1; color:var(--hp-body-text);">Elementary English Translator &nbsp;<span style="color:var(--hp-dim-text); font-size:0.9em;">· MOHRSS of China</span></span>
   </div>
-</div>
-  
-<div style="display:flex; flex-direction:column; gap:0.35em; margin:0.5em 0;">
 
-  <div style="display:flex; align-items:baseline; gap:0.6em; padding:0.3em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
+  <div style="display:flex; align-items:center; gap:0.6em; padding:0.45em 0; font-size:0.91em;">
     <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">CN-Mandarin</span>
-    <span style="flex:1; color:var(--hp-body-text);">Mandarin Level II, Grade A &nbsp;
+    <span style="flex:1; color:var(--hp-body-text);">Mandarin Level II, Grade A</span>
   </div>
+
 </div>
 
+<!-- CERTIFICATE TEMPLATE (copy and adapt):
 
-  <!-- CERTIFICATE TEMPLATE (copy and adapt):
+<div class="hp-card" style="padding:0.6em 1em; display:flex; flex-direction:column; gap:0;">
 
-  <div style="display:flex; align-items:baseline; gap:0.6em; padding:0.3em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
+  <div style="display:flex; align-items:center; gap:0.6em; padding:0.45em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
     <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">Issuer</span>
-    <span style="flex:1; color:var(--hp-body-text);">Certificate Name &nbsp;<span style="color:var(--hp-dim-text); font-size:0.9em;">· Credential ID: XXXXXXXX</span></span>
+    <span style="flex:1; color:var(--hp-body-text);"><a href="#">Certificate Name</a> &nbsp;<span style="color:var(--hp-dim-text); font-size:0.9em;">· Credential ID: XXXXXXXX</span></span>
     <span style="color:var(--hp-dim-text); font-size:0.85em; white-space:nowrap;">Jan. 20XX</span>
   </div>
 
-  If linking to a credential, wrap Certificate Name in <a href="URL">...</a>.
-  Omit the Credential ID span if not applicable.
-  -->
+  <div style="display:flex; align-items:center; gap:0.6em; padding:0.45em 0; font-size:0.91em;">
+    <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">Issuer</span>
+    <span style="flex:1; color:var(--hp-body-text);">Certificate Name</span>
+    <span style="color:var(--hp-dim-text); font-size:0.85em; white-space:nowrap;">Jan. 20XX</span>
+  </div>
 
 </div>
+
+Notes:
+- Last row has no border-bottom.
+- Wrap Certificate Name in <a href="..."> if there is a credential URL.
+- Omit the Credential ID span if not applicable.
+-->
