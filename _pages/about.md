@@ -138,23 +138,25 @@ Projects & Exploring
 <div class="hp-card" style="border-top:3px solid var(--hp-accent); display:flex; align-items:flex-start;">
   <div style="flex:1; min-width:0;">
     <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.3em;">
-      <span style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">Project / Exploration Title</span>
-      <span style="color:var(--hp-dim-text); font-size:0.88em;">Mar. 2025 – Present</span>
+      <span style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">FusionVis: A complex studying platform for college students</span>
+      <span style="color:var(--hp-dim-text); font-size:0.88em;">Apr. 2025 – Apr. 2026 (expected)</span>
     </div>
     <div style="margin:0.35em 0 0.5em; color:var(--hp-muted-text); font-size:0.93em;">
-      Brief description of the project goal, the method used, or the key finding. Keep it to 1–2 sentences.
+      We developed a comprehensive platform for college students to aggregate their Powerpoint files and academic reading materials to explore complex topics with ease.
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Zhicheng Xu, Kenan Wang, Yumeng Yan, Chuhe Zhang</span>      
     </div>
     <div>
       <span class="hp-tag">Python</span>
       <span class="hp-tag">PyTorch</span>
-      <span class="hp-tag">Tag</span>
+      <span class="hp-tag">Google Chrome</span>
+      <span class="hp-tag">VUE3</span>
       &nbsp;
-      <a href="#" style="font-size:0.88em;">[Code]</a>
-      <a href="#" style="font-size:0.88em; margin-left:6px;">[Report]</a>
+      <a href="https://github.com/BronsonLau/FusionVis_OcrPlatform" style="font-size:0.88em;">[Code]</a>
+      <a href="https://github.com/BronsonLau/FusionVis_OcrPlatform" style="font-size:0.88em; margin-left:6px;">Website</a>
     </div>
   </div>
   <div class="hp-img-slot">
-    <img src="/images/xxx.png" alt="thumbnail" style="width:100%;height:100%;object-fit:cover;">
+    <img src="/images/fusionvis.png" alt="thumbnail" style="width:100%;height:100%;object-fit:cover;">
   </div>
 </div>
 
