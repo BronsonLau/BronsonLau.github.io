@@ -112,7 +112,7 @@ Educations
   <div>
     <div style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">East China Normal University</div>
     <div style="color:var(--hp-muted-text); font-size:0.93em;">B.E. in Data Science and Big Data Technology</div>
-    <div style="color:var(--hp-dim-text); font-size:0.88em;">Sep. 2022 – Jun. 2027 (expected) &nbsp;|&nbsp; Shanghai, China</div>
+    <div style="color:var(--hp-dim-text); font-size:0.88em;">Sep. 2023 – Jun. 2027 (expected) &nbsp;|&nbsp; Shanghai, China</div>
     <div style="margin-top:0.3em; font-size:0.9em; color:var(--hp-body-text);">GPA: PRIVATE FOR NOW &nbsp;·&nbsp; Advisor: <a href="https://shuyang96.github.io/">Yang Shu</a>, <a href="https://faculty.ecnu.edu.cn/_s37/cyh2/main.psp">Yuhao Chen</a>, <a href="#">Shuying Xing</a></div>
   </div>
 </div>
