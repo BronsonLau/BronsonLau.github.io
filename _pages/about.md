@@ -80,9 +80,9 @@ html[data-theme="dark"] {
 }
 </style>
 
-🫡 News【TEMPLATE】
+<!-- 🫡 News【TEMPLATE】
 ======
-COMING SOON...
+COMING SOON... -->
 
 
 <!-- NEWS TEMPLATE:
@@ -135,7 +135,29 @@ Educations
 Projects & Exploring
 ======
 
-COMING SOON...
+<div class="hp-card" style="border-top:3px solid var(--hp-accent); display:flex; align-items:flex-start;">
+  <div style="flex:1; min-width:0;">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.3em;">
+      <span style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">Project / Exploration Title</span>
+      <span style="color:var(--hp-dim-text); font-size:0.88em;">Mar. 2025 – Present</span>
+    </div>
+    <div style="margin:0.35em 0 0.5em; color:var(--hp-muted-text); font-size:0.93em;">
+      Brief description of the project goal, the method used, or the key finding. Keep it to 1–2 sentences.
+    </div>
+    <div>
+      <span class="hp-tag">Python</span>
+      <span class="hp-tag">PyTorch</span>
+      <span class="hp-tag">Tag</span>
+      &nbsp;
+      <a href="#" style="font-size:0.88em;">[Code]</a>
+      <a href="#" style="font-size:0.88em; margin-left:6px;">[Report]</a>
+    </div>
+  </div>
+  <div class="hp-img-slot">
+    <img src="/images/xxx.png" alt="thumbnail" style="width:100%;height:100%;object-fit:cover;">
+  </div>
+</div>
+
 
 <!-- PROJECT TEMPLATE:
 
@@ -165,10 +187,10 @@ COMING SOON...
 -->
 
 
-Preprints【TEMPLATE】
+<!-- Preprints
 ======
 
-COMING SOON...
+COMING SOON... -->
 
 <!-- PREPRINT TEMPLATE:
 
@@ -199,10 +221,10 @@ COMING SOON...
 -->
 
 
-Publications【TEMPLATE】
+<!-- Publications
 ======
 
-COMING SOON...
+COMING SOON... -->
 
 <!-- PUBLICATION TEMPLATE:
 
@@ -236,10 +258,10 @@ COMING SOON...
 -->
 
 
-Internships【TEMPLATE】
+<!-- Internships
 ======
 
-COMING SOON...
+COMING SOON... -->
 
 <!-- INTERNSHIP TEMPLATE:
 
