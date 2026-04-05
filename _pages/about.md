@@ -270,7 +270,7 @@ Prizes
 
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
-  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Third Prize &nbsp;·&nbsp; China Undergraduate Mathematical Contest in Modeling (Shanghai Division)</div>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Third Prize &nbsp;·&nbsp; China Undergraduate Mathematical Contest in Modeling (Shanghai Division) &nbsp;·&nbsp; with Ziqian Chen, Zeyan Li</div>
   <span class="hp-year-badge-muted">2025</span>
 </div>
 
@@ -289,7 +289,13 @@ Prizes
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Third Prize &nbsp;·&nbsp; National English Competition for College Students(Shanghai Division)</div>
-  <span class="hp-year-badge">20XX</span>
+  <span class="hp-year-badge">2024</span>
+</div>
+
+<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
+  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Third Prize &nbsp;·&nbsp; The 2nd Openatom Competition &nbsp;·&nbsp; with Kenan Wang</div>
+  <span class="hp-year-badge">2024</span>
 </div>
 
 <!-- PRIZE TEMPLATE (copy and adapt):
