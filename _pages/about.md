@@ -341,7 +341,7 @@ Prizes & Scholarships
 
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
-  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Third Prize &nbsp;·&nbsp; National English Competition for College Students(Shanghai Division)</div>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Third Prize &nbsp;·&nbsp; China National English Competition for College Students(Shanghai Division)</div>
   <span class="hp-year-badge">2024</span>
 </div>
 
@@ -377,12 +377,12 @@ Certificates & Abilities
 
   <div style="display:flex; align-items:center; gap:0.6em; padding:0.45em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
     <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">CN-CET6</span>
-    <span style="flex:1; color:var(--hp-body-text);">English — CET-6 &nbsp;<span style="color:var(--hp-dim-text); font-size:0.9em;">651</span></span>
+    <span style="flex:1; color:var(--hp-body-text);">English — CET-6 651</span>
   </div>
 
   <div style="display:flex; align-items:center; gap:0.6em; padding:0.45em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
     <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">CN-BETT</span>
-    <span style="flex:1; color:var(--hp-body-text);">Elementary English Translator &nbsp;<span style="color:var(--hp-dim-text); font-size:0.9em;">· MOHRSS of China</span></span>
+    <span style="flex:1; color:var(--hp-body-text);">Elementary English Translator </span>
   </div>
 
   <div style="display:flex; align-items:center; gap:0.6em; padding:0.45em 0; font-size:0.91em;">
