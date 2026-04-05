@@ -9,6 +9,8 @@ redirect_from:
 
 I am currently a third-year undergraduate student studying in School of Data Science and Engineering @East China Normal University(ECNU) and I am currently doing research under the supervision of associate professor [Yang Shu](https://shuyang96.github.io/) and studying more about Time Series Problems & Multimodal Model & Agent & a little CV.
 
+Feel free to contact me via Email.
+
 
 <style>
 /* ── Homepage card variables ──────────────────────────────── */
@@ -362,3 +364,49 @@ Prizes & Scholarships
 
 Use hp-year-badge-muted instead of hp-year-badge for less prominent entries.
 -->
+
+Certificates & Abilities
+======
+
+<div style="display:flex; flex-direction:column; gap:0.35em; margin:0.5em 0;">
+
+  <div style="display:flex; align-items:baseline; gap:0.6em; padding:0.3em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
+    <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">IELTS</span>
+    <span style="flex:1; color:var(--hp-body-text);">English-IELTS: 7.5 &nbsp;
+  </div>
+
+<div style="display:flex; flex-direction:column; gap:0.35em; margin:0.5em 0;">
+
+  <div style="display:flex; align-items:baseline; gap:0.6em; padding:0.3em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
+    <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">CN-CET6</span>
+    <span style="flex:1; color:var(--hp-body-text);">English-CET: 651 &nbsp;
+  </div>
+
+<div style="display:flex; flex-direction:column; gap:0.35em; margin:0.5em 0;">
+
+  <div style="display:flex; align-items:baseline; gap:0.6em; padding:0.3em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
+    <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">CN-BETT</span>
+    <span style="flex:1; color:var(--hp-body-text);">Elementary English Translator &nbsp;
+  </div>
+  
+<div style="display:flex; flex-direction:column; gap:0.35em; margin:0.5em 0;">
+
+  <div style="display:flex; align-items:baseline; gap:0.6em; padding:0.3em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
+    <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">CN-Mandarin</span>
+    <span style="flex:1; color:var(--hp-body-text);">Mandarin Level II, Grade A &nbsp;
+  </div>
+
+
+  <!-- CERTIFICATE TEMPLATE (copy and adapt):
+
+  <div style="display:flex; align-items:baseline; gap:0.6em; padding:0.3em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
+    <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">Issuer</span>
+    <span style="flex:1; color:var(--hp-body-text);">Certificate Name &nbsp;<span style="color:var(--hp-dim-text); font-size:0.9em;">· Credential ID: XXXXXXXX</span></span>
+    <span style="color:var(--hp-dim-text); font-size:0.85em; white-space:nowrap;">Jan. 20XX</span>
+  </div>
+
+  If linking to a credential, wrap Certificate Name in <a href="URL">...</a>.
+  Omit the Credential ID span if not applicable.
+  -->
+
+</div>
