@@ -19,8 +19,10 @@
 </div>
 {% endif %} -->
 
-<div class="page__footer-copyright">
-  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
-  <!-- {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br /> -->
-  Site last updated {{ "now" | date: '%Y-%m-%d' }}
+<div class="page__footer-copyright" style="display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:0.5em 1.2em; font-size:0.82em; opacity:0.82; padding:0.4em 0;">
+  <span>&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}</span>
+  <!-- <span style="opacity:0.4;">|</span> -->
+  <!-- <span>Built with <a href="https://jekyllrb.com" rel="nofollow" style="text-decoration:none;">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io" rel="nofollow" style="text-decoration:none;">AcademicPages</a></span> -->
+  <span style="opacity:0.4;">|</span>
+  <span>Last updated&ensp;<time datetime="{{ "now" | date: '%Y-%m-%d' }}" style="font-variant-numeric:tabular-nums;">{{ "now" | date: '%b %d, %Y' }}</time></span>
 </div>
