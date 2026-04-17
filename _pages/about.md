@@ -141,7 +141,7 @@ Projects & Exploring
   <div style="flex:1; min-width:0;">
     <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.3em;">
       <span style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">FusionVis: A complex studying platform for college students</span>
-      <span style="color:var(--hp-dim-text); font-size:0.88em;">Apr. 2025 – Apr. 2026 (expected)</span>
+      <span style="color:var(--hp-dim-text); font-size:0.88em;">May 2025 – May 2026 (expected)</span>
     </div>
     <div style="margin:0.35em 0 0.5em; color:var(--hp-muted-text); font-size:0.93em;">
       We developed a comprehensive platform for college students to aggregate their Powerpoint files and academic reading materials to explore complex topics with ease.
@@ -394,12 +394,12 @@ Certificates & Abilities
     <span style="flex:1; color:var(--hp-body-text);">Elementary English Translator </span>
   </div>
 
-  <div style="display:flex; align-items:center; gap:0.6em; padding:0.45em 0; font-size:0.91em;">
+  <div style="display:flex; align-items:center; gap:0.6em; padding:0.45em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
     <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">CN-Mandarin</span>
     <span style="flex:1; color:var(--hp-body-text);">Mandarin Level II, Grade A</span>
   </div>
 
-  <div style="display:flex; align-items:center; gap:0.6em; padding:0.45em 0; font-size:0.91em;">
+  <div style="display:flex; align-items:center; gap:0.6em; padding:0.45em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
     <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">CN-NTCE</span>
     <span style="flex:1; color:var(--hp-body-text);">English Teacher Certificate, Senior High School Level</span>
   </div>
