@@ -354,6 +354,15 @@ Prizes & Scholarships
   <span class="hp-year-badge">2024</span>
 </div>
 
+<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
+  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
+    Champion &nbsp;·&nbsp; School of Data Science and Engineering @ECNU Badminton competition, Mixed Doubles
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Chenyu Li</span>
+  </div>
+  <span class="hp-year-badge">2024</span>
+</div>
+
 <!-- PRIZE TEMPLATE (copy and adapt):
 
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
@@ -388,6 +397,11 @@ Certificates & Abilities
   <div style="display:flex; align-items:center; gap:0.6em; padding:0.45em 0; font-size:0.91em;">
     <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">CN-Mandarin</span>
     <span style="flex:1; color:var(--hp-body-text);">Mandarin Level II, Grade A</span>
+  </div>
+
+  <div style="display:flex; align-items:center; gap:0.6em; padding:0.45em 0; font-size:0.91em;">
+    <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">CN-NTCE</span>
+    <span style="flex:1; color:var(--hp-body-text);">English Teacher Certificate, Senior High School Level（STILL ONGOING）</span>
   </div>
 
 </div>
