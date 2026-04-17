@@ -425,7 +425,7 @@ Certificates & Abilities
 </div>
 
 Notes:
-- Last row has no border-bottom.
+- All rows have border-bottom (including the last one).
 - Wrap Certificate Name in <a href="..."> if there is a credential URL.
 - Omit the Credential ID span if not applicable.
 -->
