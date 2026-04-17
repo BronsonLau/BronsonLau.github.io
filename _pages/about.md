@@ -360,7 +360,7 @@ Prizes & Scholarships
     Champion &nbsp;·&nbsp; School of Data Science and Engineering @ECNU Badminton competition, Mixed Doubles
     <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Chenyu Li</span>
   </div>
-  <span class="hp-year-badge">2024</span>
+  <span class="hp-year-badge">2026</span>
 </div>
 
 <!-- PRIZE TEMPLATE (copy and adapt):
@@ -401,7 +401,7 @@ Certificates & Abilities
 
   <div style="display:flex; align-items:center; gap:0.6em; padding:0.45em 0; font-size:0.91em;">
     <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">CN-NTCE</span>
-    <span style="flex:1; color:var(--hp-body-text);">English Teacher Certificate, Senior High School Level（STILL ONGOING）</span>
+    <span style="flex:1; color:var(--hp-body-text);">English Teacher Certificate, Senior High School Level</span>
   </div>
 
 </div>
