@@ -384,6 +384,7 @@ Scholarships & Prizes
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">First Prize(Ranking 2) &nbsp;·&nbsp; 2024 Outstanding General Education Course Assignment Selection in East China Normal University
   <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;advised by/ Linyang Yu</span>
+  </div>
   <span class="hp-year-badge">2025</span>
 </div>
 
