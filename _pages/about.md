@@ -309,21 +309,12 @@ COMING SOON... -->
 -->
 
 
-Prizes & Scholarships
+Scholarships & Prizes
 ======
 
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Scholarship</span>
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">China National Scholarship &nbsp;·&nbsp; MOE of China</div>
-  <span class="hp-year-badge">2025</span>
-</div>
-
-<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
-  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
-  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
-    Third Prize &nbsp;·&nbsp; China Undergraduate Mathematical Contest in Modeling (Shanghai Division)
-    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Ziqian Chen, Zeyan Li</span>
-  </div>
   <span class="hp-year-badge">2025</span>
 </div>
 
@@ -340,9 +331,30 @@ Prizes & Scholarships
 </div>
 
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
+  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Honor</span>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Student Mentor of the “1+8 Academic Advising System” under the Life Development Navigation Program &nbsp;·&nbsp; East China Normal University</div>
+  <span class="hp-year-badge">2025</span>
+</div>
+
+<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
+  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Honor</span>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Best Department Head of the Faculty Student Union. &nbsp;·&nbsp; School of Data Science and Engineering, East China Normal University</div>
+  <span class="hp-year-badge">2025</span>
+</div>
+
+<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
+  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Honor</span>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Participation in Admissions Promotion Social Practice Activity &nbsp;·&nbsp; East China Normal University</div>
+  <span class="hp-year-badge">2025</span>
+</div>
+
+<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
-  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Third Prize &nbsp;·&nbsp; China National English Competition for College Students(Shanghai Division)</div>
-  <span class="hp-year-badge">2024</span>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
+    Third Prize &nbsp;·&nbsp; China Undergraduate Mathematical Contest in Modeling (Shanghai Division)
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Ziqian Chen, Zeyan Li</span>
+  </div>
+  <span class="hp-year-badge">2025</span>
 </div>
 
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
@@ -352,6 +364,27 @@ Prizes & Scholarships
     <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Kenan Wang</span>
   </div>
   <span class="hp-year-badge">2024</span>
+</div>
+
+<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
+  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Third Prize &nbsp;·&nbsp; China National English Competition for College Students(Shanghai Division)</div>
+  <span class="hp-year-badge">2024</span>
+</div>
+
+<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
+  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Excellent Prize &nbsp;·&nbsp; The 5th National College English Vocabulary Competition of the “The world of English” Cup
+  <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;advised by/ Wei Wei</span>
+  </div>
+  <span class="hp-year-badge">2025</span>
+</div>
+
+<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
+  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">First Prize(Ranking 2) &nbsp;·&nbsp; 2024 Outstanding General Education Course Assignment Selection in East China Normal University
+  <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;advised by/ Linyang Yu</span>
+  <span class="hp-year-badge">2025</span>
 </div>
 
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
