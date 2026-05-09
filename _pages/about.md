@@ -369,6 +369,24 @@ Scholarships & Prizes
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
+    Successful Participant &nbsp;·&nbsp; Mathematical Contest in Modeling 
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Kenan Wang, Chenyu Li</span>
+  </div>
+  <span class="hp-year-badge">2026</span>
+</div>
+
+<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
+  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
+    Successful Participant &nbsp;·&nbsp; National College Student Computer System Capability Contest - Operating System Design Competition - OS Principles(East China Division)
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Qiyu Song, Shutong Ma</span>
+  </div>
+  <span class="hp-year-badge">2024</span>
+</div>
+
+<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
+  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
     Third Prize &nbsp;·&nbsp; The 2nd Openatom Competition
     <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Kenan Wang</span>
   </div>
