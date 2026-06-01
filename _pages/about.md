@@ -265,7 +265,7 @@ Publications
       Copyright Owner: East China Normal University (华东师范大学)
     </div>
     <div style="margin:0.3em 0;">
-      <span class="hp-tag" style="background:#0c2d18; color:#4fb870; border:1px solid #1a5c30;">Registered</span>
+      <span class="hp-tag" style="border:1px solid var(--hp-card-border);">Registered</span>
       &nbsp;<em style="color:var(--hp-muted-text); font-size:0.88em;">China Software Copyright, 2026</em>
     </div>
   </div>
