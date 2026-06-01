@@ -261,13 +261,16 @@ Publications
     <div style="color:var(--hp-muted-text); font-size:0.9em; margin:0.2em 0;">
       <strong>China Software Copyright</strong> &nbsp;|&nbsp; Registration No.: 2026SR0633721
     </div>
+    <div style="color:var(--hp-muted-text); font-size:0.9em; margin:0.2em 0;">
+      Copyright Owner: East China Normal University (华东师范大学)
+    </div>
     <div style="margin:0.3em 0;">
       <span class="hp-tag" style="background:#0c2d18; color:#4fb870; border:1px solid #1a5c30;">Registered</span>
       &nbsp;<em style="color:var(--hp-muted-text); font-size:0.88em;">China Software Copyright, 2026</em>
     </div>
   </div>
   <div class="hp-img-slot">
-    <img src="/images/fusionvis.png" alt="thumbnail" style="width:100%;height:100%;object-fit:cover;">
+    <img src="/images/fusionvis_copyright.png" alt="thumbnail" style="width:100%;height:100%;object-fit:cover;">
   </div>
 </div>
 
