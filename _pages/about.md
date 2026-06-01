@@ -146,6 +146,7 @@ Projects & Exploring
     <div style="margin:0.35em 0 0.5em; color:var(--hp-muted-text); font-size:0.93em;">
       We developed a comprehensive platform for college students to aggregate their Powerpoint files and academic reading materials to explore complex topics with ease.
     <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Zhicheng Xu, Kenan Wang, Yumeng Yan, Chuhe Zhang</span>      
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">China Software Copyright: FusionVis: A One-Stop Platform for Learning Document Processing [Short Name: FusionVis] V1.0</span>
     </div>
     <div>
       <span class="hp-tag">Python</span>
@@ -249,10 +250,26 @@ COMING SOON... -->
 -->
 
 
-<!-- Publications
+Publications
 ======
 
-COMING SOON... -->
+<div class="hp-card" style="border-left:4px solid var(--hp-accent); display:flex; align-items:flex-start;">
+  <div style="flex:1; min-width:0;">
+    <div style="font-weight:bold; font-size:1em; line-height:1.5; color:var(--hp-body-text);">
+      FusionVis: A One-Stop Platform for Learning Document Processing [Short Name: FusionVis] V1.0
+    </div>
+    <div style="color:var(--hp-muted-text); font-size:0.9em; margin:0.2em 0;">
+      <strong>China Software Copyright</strong> &nbsp;|&nbsp; Registration No.: 2026SR0633721
+    </div>
+    <div style="margin:0.3em 0;">
+      <span class="hp-tag" style="background:#0c2d18; color:#4fb870; border:1px solid #1a5c30;">Registered</span>
+      &nbsp;<em style="color:var(--hp-muted-text); font-size:0.88em;">China Software Copyright, 2026</em>
+    </div>
+  </div>
+  <div class="hp-img-slot">
+    <img src="/images/fusionvis.png" alt="thumbnail" style="width:100%;height:100%;object-fit:cover;">
+  </div>
+</div>
 
 <!-- PUBLICATION TEMPLATE:
 
