@@ -218,6 +218,67 @@ Educations
 -->
 
 
+Publications
+======
+
+<div class="hp-card hp-feature-card">
+  <div style="flex:1; min-width:0;">
+    <div style="font-weight:bold; font-size:1em; line-height:1.5; color:var(--hp-body-text);">
+      FusionVis: A One-Stop Platform for Learning Document Processing [Short Name: FusionVis] V1.0
+    </div>
+    <div style="color:var(--hp-muted-text); font-size:0.9em; margin:0.2em 0;">
+      <strong>China Software Copyright</strong> &nbsp;|&nbsp; Registration No.: 2026SR0633721
+    </div>
+    <div style="color:var(--hp-muted-text); font-size:0.9em; margin:0.2em 0;">
+      <strong>Yu Ke</strong>, Zhicheng Xu, Kenan Wang, Yumeng Yan, Chuhe Zhang, Yang Shu*
+    </div>
+    <div style="color:var(--hp-muted-text); font-size:0.9em; margin:0.2em 0;">
+      Copyright Owner: East China Normal University (华东师范大学)
+    </div>
+    <div style="margin:0.3em 0;">
+      <span class="hp-tag" style="border:1px solid var(--hp-card-border);">Registered</span>
+      &nbsp;<em style="color:var(--hp-muted-text); font-size:0.88em;">China Software Copyright, 2026</em>
+    </div>
+  </div>
+  <div class="hp-img-slot">
+    <img src="/images/fusionvis_copyright.png" alt="thumbnail" style="width:100%;height:100%;object-fit:cover;">
+  </div>
+</div>
+
+<!-- PUBLICATION TEMPLATE:
+
+<div class="hp-card" style="border-left:4px solid var(--hp-accent); display:flex; align-items:flex-start;">
+  <div style="flex:1; min-width:0;">
+    <div style="font-weight:bold; font-size:1em; line-height:1.5; color:var(--hp-body-text);">
+      Paper Title: A Detailed and Descriptive Title for the Work
+    </div>
+    <div style="color:var(--hp-muted-text); font-size:0.9em; margin:0.2em 0;">
+      <strong>Your Name</strong>, Co-author One, Co-author Two, Co-author Three
+    </div>
+    <div style="margin:0.3em 0;">
+      <span class="hp-tag" style="background:#0c2d18; color:#4fb870; border:1px solid #1a5c30;">Published</span>
+      &nbsp;<em style="color:var(--hp-muted-text); font-size:0.88em;">Conference/Journal Name (Abbrev.), Year</em>
+      &nbsp;<span style="color:var(--hp-dim-text); margin:0 2px;">·</span>
+      <span class="hp-tag">Oral / Poster</span>
+    </div>
+    <div style="margin-top:0.4em; font-size:0.88em;">
+      <a href="#">[Paper]</a>
+      <a href="#" style="margin-left:8px;">[arXiv]</a>
+      <a href="#" style="margin-left:8px;">[Code]</a>
+      <a href="#" style="margin-left:8px;">[Slides]</a>
+      <a href="#" style="margin-left:8px;">[BibTeX]</a>
+    </div>
+  </div>
+  <div class="hp-img-slot">
+    <img src="/images/xxx.png" alt="thumbnail" style="width:100%;height:100%;object-fit:cover;">
+  </div>
+</div>
+
+-->
+
+
+
+
 Projects & Exploring
 ======
 
@@ -229,7 +290,7 @@ Projects & Exploring
     </div>
     <div style="margin:0.35em 0 0.5em; color:var(--hp-muted-text); font-size:0.93em;">
       We developed a comprehensive platform for college students to aggregate their Powerpoint files and academic reading materials to explore complex topics with ease.
-    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Zhicheng Xu, Kenan Wang, Yumeng Yan, Chuhe Zhang</span>      
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;"><strong>Yu Ke</strong>, Zhicheng Xu, Kenan Wang, Yumeng Yan, Chuhe Zhang</span>      
     <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">China Software Copyright: FusionVis: A One-Stop Platform for Learning Document Processing [Short Name: FusionVis] V1.0</span>
     </div>
     <div>
@@ -254,13 +315,13 @@ Projects & Exploring
     </div>
     <div style="margin:0.35em 0 0.5em; color:var(--hp-muted-text); font-size:0.93em;">
       We analyzed the data of Open-Digger to provide an overall analysis of the most active and influential developers data using machine learning algorithms, visualizing the data, and providing a comprehensive report where a new metric was introduced.
-    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Kenan Wang</span>      
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;"><strong>Yu Ke</strong>, Kenan Wang</span>      
     </div>
     <div>
       <span class="hp-tag">Python</span>
       <span class="hp-tag">Sk-learn</span>
       <span class="hp-tag">Society</span>
-      <span class="hp-tag">Opensource</span>
+      <span class="hp-tag">Open-Source</span>
       &nbsp;
       <a href="https://github.com/BronsonLau/OpenRank_OpenSourceContribution" style="font-size:0.88em;">[Code]</a>
     </div>
@@ -274,18 +335,17 @@ Projects & Exploring
   <div style="flex:1; min-width:0;">
     <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.3em;">
       <span style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">Multimodal Psychological Intelligence Analysis and Interaction System Based on Large Models</span>
-      <span style="color:var(--hp-dim-text); font-size:0.88em;">2025</span>
+      <span style="color:var(--hp-dim-text); font-size:0.88em;">May 2024 – May 2024</span>
     </div>
     <div style="margin:0.35em 0 0.5em; color:var(--hp-muted-text); font-size:0.93em;">
-      ECNU Undergraduate Innovation and Entrepreneurship Training Program project, successfully completed with an Excellent evaluation.
-      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;Project No. 202510269229X &nbsp;|&nbsp; University-level Innovation Training Project</span>
-      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Ziqian Chen, Jiahong Lv, Jialiang Li, Kenan Wang &nbsp;|&nbsp; Advisors: Jilin Hu, Yao Liu</span>
+      We developed a multimodal system for analyzing and interacting with psychological intelligence, which can gather information of different modals and utilize them well,  based on large models.
+      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">University-level Innovation Training Project</span>
+      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Ziqian Chen, Jiahong Lv, Jialiang Li,<strong>Yu Ke</strong>, Kenan Wang &nbsp;|&nbsp; Advisors: Jilin Hu, Yao Liu</span>
     </div>
     <div>
       <span class="hp-tag">Large Models</span>
       <span class="hp-tag">Multimodal</span>
       <span class="hp-tag">Psychology</span>
-      <span class="hp-tag">ECNU DCTP</span>
     </div>
   </div>
   <div class="hp-img-slot">ECNU<br>Cert.</div>
@@ -295,18 +355,18 @@ Projects & Exploring
   <div style="flex:1; min-width:0;">
     <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.3em;">
       <span style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">Yiyanghui: A Pioneer in Inclusive Family Elderly Care Financial Planning Services</span>
-      <span style="color:var(--hp-dim-text); font-size:0.88em;">2025</span>
+      <span style="color:var(--hp-dim-text); font-size:0.88em;">May 2024 – May 2025</span>
     </div>
     <div style="margin:0.35em 0 0.5em; color:var(--hp-muted-text); font-size:0.93em;">
-      ECNU Undergraduate Innovation and Entrepreneurship Training Program project, successfully completed with a Good evaluation.
-      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;Project No. 202510269147S &nbsp;|&nbsp; Municipal-level Innovation Training Project</span>
-      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Yuzhen Chen, Kaiyu Zeng, Hanchun Yang, Jingqi Gao &nbsp;|&nbsp; Advisor: Jinfei Lu</span>
+      We developed a financial planning service for elderly families, which can help them manage their financial situation and make better decisions.
+      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Municipal-level Innovation Training Project</span>
+      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Yuzhen Chen, Kaiyu Zeng, Hanchun Yang, Jingqi Gao, <strong>Yu Ke</strong> &nbsp;|&nbsp; Advisor: Jinfei Lu</span>
     </div>
     <div>
       <span class="hp-tag">FinTech</span>
+      <span class="hp-tag">Cyber Security</span>
       <span class="hp-tag">Elderly Care</span>
       <span class="hp-tag">Public Service</span>
-      <span class="hp-tag">ECNU DCTP</span>
     </div>
   </div>
   <div class="hp-img-slot">ECNU<br>Cert.</div>
@@ -316,18 +376,17 @@ Projects & Exploring
   <div style="flex:1; min-width:0;">
     <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.3em;">
       <span style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">OpenSinging: Accompaniment Auto-Following Model Based on Audio Recognition</span>
-      <span style="color:var(--hp-dim-text); font-size:0.88em;">2026</span>
+      <span style="color:var(--hp-dim-text); font-size:0.88em;">May 2025 – May 2026</span>
     </div>
     <div style="margin:0.35em 0 0.5em; color:var(--hp-muted-text); font-size:0.93em;">
-      ECNU Undergraduate Innovation and Entrepreneurship Training Program project, successfully completed with a Good evaluation.
-      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;Project No. 202610269374S &nbsp;|&nbsp; Municipal-level Innovation Training Project</span>
-      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Chunkai Pan, Yuquan Sun, Ya Yu, Ziyou Zhuang &nbsp;|&nbsp; Advisor: Yanbin Zhang</span>
+      We developed a model for automatic accompaniment following based on audio recognition, which can automatically follow the music and singers' performances.
+      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp; Municipal-level Innovation Training Project</span>
+      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Chunkai Pan, <strong>Yu Ke</strong>, Yuquan Sun, Ya Yu, Ziyou Zhuang &nbsp;|&nbsp; Advisor: Yanbin Zhang</span>
     </div>
     <div>
       <span class="hp-tag">Audio Recognition</span>
       <span class="hp-tag">Music AI</span>
       <span class="hp-tag">Accompaniment</span>
-      <span class="hp-tag">ECNU DCTP</span>
     </div>
   </div>
   <div class="hp-img-slot">ECNU<br>Cert.</div>
@@ -386,65 +445,6 @@ COMING SOON... -->
       <a href="#" style="margin-left:8px;">[PDF]</a>
       <a href="#" style="margin-left:8px;">[Code]</a>
       <a href="#" style="margin-left:8px;">[Project Page]</a>
-    </div>
-  </div>
-  <div class="hp-img-slot">
-    <img src="/images/xxx.png" alt="thumbnail" style="width:100%;height:100%;object-fit:cover;">
-  </div>
-</div>
-
--->
-
-
-Publications
-======
-
-<div class="hp-card hp-feature-card">
-  <div style="flex:1; min-width:0;">
-    <div style="font-weight:bold; font-size:1em; line-height:1.5; color:var(--hp-body-text);">
-      FusionVis: A One-Stop Platform for Learning Document Processing [Short Name: FusionVis] V1.0
-    </div>
-    <div style="color:var(--hp-muted-text); font-size:0.9em; margin:0.2em 0;">
-      <strong>China Software Copyright</strong> &nbsp;|&nbsp; Registration No.: 2026SR0633721
-    </div>
-    <div style="color:var(--hp-muted-text); font-size:0.9em; margin:0.2em 0;">
-      <strong>Yu Ke</strong>, Zhicheng Xu, Kenan Wang, Yumeng Yan, Chuhe Zhang, Yang Shu*
-    </div>
-    <div style="color:var(--hp-muted-text); font-size:0.9em; margin:0.2em 0;">
-      Copyright Owner: East China Normal University (华东师范大学)
-    </div>
-    <div style="margin:0.3em 0;">
-      <span class="hp-tag" style="border:1px solid var(--hp-card-border);">Registered</span>
-      &nbsp;<em style="color:var(--hp-muted-text); font-size:0.88em;">China Software Copyright, 2026</em>
-    </div>
-  </div>
-  <div class="hp-img-slot">
-    <img src="/images/fusionvis_copyright.png" alt="thumbnail" style="width:100%;height:100%;object-fit:cover;">
-  </div>
-</div>
-
-<!-- PUBLICATION TEMPLATE:
-
-<div class="hp-card" style="border-left:4px solid var(--hp-accent); display:flex; align-items:flex-start;">
-  <div style="flex:1; min-width:0;">
-    <div style="font-weight:bold; font-size:1em; line-height:1.5; color:var(--hp-body-text);">
-      Paper Title: A Detailed and Descriptive Title for the Work
-    </div>
-    <div style="color:var(--hp-muted-text); font-size:0.9em; margin:0.2em 0;">
-      <strong>Your Name</strong>, Co-author One, Co-author Two, Co-author Three
-    </div>
-    <div style="margin:0.3em 0;">
-      <span class="hp-tag" style="background:#0c2d18; color:#4fb870; border:1px solid #1a5c30;">Published</span>
-      &nbsp;<em style="color:var(--hp-muted-text); font-size:0.88em;">Conference/Journal Name (Abbrev.), Year</em>
-      &nbsp;<span style="color:var(--hp-dim-text); margin:0 2px;">·</span>
-      <span class="hp-tag">Oral / Poster</span>
-    </div>
-    <div style="margin-top:0.4em; font-size:0.88em;">
-      <a href="#">[Paper]</a>
-      <a href="#" style="margin-left:8px;">[arXiv]</a>
-      <a href="#" style="margin-left:8px;">[Code]</a>
-      <a href="#" style="margin-left:8px;">[Slides]</a>
-      <a href="#" style="margin-left:8px;">[BibTeX]</a>
     </div>
   </div>
   <div class="hp-img-slot">
