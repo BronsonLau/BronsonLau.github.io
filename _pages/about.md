@@ -279,7 +279,7 @@ Publications
 
 
 
-Projects & Exploring
+Projects
 ======
 
 <div class="hp-card hp-feature-card">
@@ -556,7 +556,7 @@ Academic Honors
 Use hp-year-badge-muted instead of hp-year-badge for less prominent entries.
 -->
 
-Certificates & Abilities
+Certificates
 ======
 
 <div class="hp-card hp-list-card" style="padding:0.85em 1.1em;">
