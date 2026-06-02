@@ -331,7 +331,7 @@ COMING SOON... -->
 -->
 
 
-Scholarships & Prizes
+Academic Honors
 ======
 
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
@@ -350,24 +350,6 @@ Scholarships & Prizes
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Honor</span>
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Outstanding Student &nbsp;·&nbsp; East China Normal University</div>
   <span class="hp-year-badge">2024</span>
-</div>
-
-<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
-  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Honor</span>
-  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Student Mentor of the “1+8 Academic Advising System” under the Life Development Navigation Program &nbsp;·&nbsp; East China Normal University</div>
-  <span class="hp-year-badge">2025</span>
-</div>
-
-<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
-  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Honor</span>
-  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Best Department Head of the Faculty Student Union. &nbsp;·&nbsp; School of Data Science and Engineering, East China Normal University</div>
-  <span class="hp-year-badge">2025</span>
-</div>
-
-<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
-  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Honor</span>
-  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Participation in Admissions Promotion Social Practice Activity &nbsp;·&nbsp; East China Normal University</div>
-  <span class="hp-year-badge">2025</span>
 </div>
 
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
@@ -400,7 +382,7 @@ Scholarships & Prizes
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
-    Successful Participant &nbsp;·&nbsp; National College Student Computer System Capability Contest - Operating System Design Competition - OS Principles(East China Division)
+    Excellence Award &nbsp;·&nbsp; National College Student Computer System Capability Contest - Operating System Design Competition - OS Principles(East China Division)
     <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Qiyu Song, Shutong Ma</span>
   </div>
   <span class="hp-year-badge">2024</span>
@@ -409,41 +391,10 @@ Scholarships & Prizes
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
-    Third Prize &nbsp;·&nbsp; The 2nd Openatom Competition
+    Third Prize &nbsp;·&nbsp; The 2nd Open Atom Competition OpenRank Open Source Digital Ecosystem Analysis and Application Innovation Contest
     <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Kenan Wang</span>
   </div>
   <span class="hp-year-badge">2024</span>
-</div>
-
-<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
-  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
-  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Third Prize &nbsp;·&nbsp; China National English Competition for College Students(Shanghai Division)</div>
-  <span class="hp-year-badge">2024</span>
-</div>
-
-<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
-  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
-  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Excellent Prize &nbsp;·&nbsp; The 5th National College English Vocabulary Competition of the “The world of English” Cup
-  <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;advised by/ Wei Wei</span>
-  </div>
-  <span class="hp-year-badge">2025</span>
-</div>
-
-<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
-  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
-  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">First Prize(Ranking 2) &nbsp;·&nbsp; 2024 Outstanding General Education Course Assignment Selection in East China Normal University
-  <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;advised by/ Linyang Yu</span>
-  </div>
-  <span class="hp-year-badge">2025</span>
-</div>
-
-<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
-  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
-  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
-    Champion &nbsp;·&nbsp; School of Data Science and Engineering @ECNU Badminton competition, Mixed Doubles
-    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Chenyu Li</span>
-  </div>
-  <span class="hp-year-badge">2026</span>
 </div>
 
 <!-- PRIZE TEMPLATE (copy and adapt):
@@ -461,6 +412,8 @@ Certificates & Abilities
 ======
 
 <div class="hp-card" style="padding:0.6em 1em; display:flex; flex-direction:column; gap:0;">
+
+
 
   <div style="display:flex; align-items:center; gap:0.6em; padding:0.45em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
     <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">IELTS</span>
@@ -517,3 +470,61 @@ Notes:
 - Wrap Certificate Name in <a href="..."> if there is a credential URL.
 - Omit the Credential ID span if not applicable.
 -->
+
+
+Other Honors
+======
+<div class="hp-card" style="padding:0.6em 1em; display:flex; flex-direction:column; gap:0;">
+
+<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
+  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Honor</span>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Best Department Head of the Faculty Student Union. &nbsp;·&nbsp; School of Data Science and Engineering, East China Normal University</div>
+  <span class="hp-year-badge">2025</span>
+</div>
+
+<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
+  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Honor</span>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Student Mentor of the “1+8 Academic Advising System” under the Life Development Navigation Program &nbsp;·&nbsp; East China Normal University</div>
+  <span class="hp-year-badge">2025</span>
+</div>
+
+<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
+  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Honor</span>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Participation in Admissions Promotion Social Practice Activity &nbsp;·&nbsp; East China Normal University</div>
+  <span class="hp-year-badge">2025</span>
+</div>
+
+<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
+  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Third Prize &nbsp;·&nbsp; China National English Competition for College Students(Shanghai Division)</div>
+  <span class="hp-year-badge">2024</span>
+</div>
+
+
+<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
+  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">First Prize(Ranking 2) &nbsp;·&nbsp; 2024 Outstanding General Education Course Assignment Selection in East China Normal University
+  <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;advised by/ Linyang Yu</span>
+  </div>
+  <span class="hp-year-badge">2025</span>
+</div>
+
+
+<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
+  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Excellent Prize &nbsp;·&nbsp; The 5th National College English Vocabulary Competition of the “The world of English” Cup
+  <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;advised by/ Wei Wei</span>
+  </div>
+  <span class="hp-year-badge">2025</span>
+</div>
+
+<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
+  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
+    Champion &nbsp;·&nbsp; School of Data Science and Engineering @ECNU Badminton competition, Mixed Doubles
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Chenyu Li</span>
+  </div>
+  <span class="hp-year-badge">2026</span>
+</div>
+
+</div>
