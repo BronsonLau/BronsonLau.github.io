@@ -44,6 +44,85 @@ html[data-theme="dark"] {
   margin: 0.8em 0;
   padding: 0.9em 1.1em;
 }
+.hp-feature-card {
+  border-top: 3px solid var(--hp-accent);
+  display: flex;
+  align-items: flex-start;
+}
+.hp-list-card {
+  padding: 0.7em 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.hp-list-row {
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+  padding: 0.52em 0;
+  border-bottom: 1px solid var(--hp-card-border);
+  font-size: 0.93em;
+}
+.hp-list-row:last-child {
+  border-bottom: 0;
+}
+.hp-list-row-compact {
+  gap: 0.55em;
+  padding: 0.4em 0;
+  font-size: 0.86em;
+}
+.hp-row-text {
+  flex: 1;
+  min-width: 0;
+  color: var(--hp-body-text);
+}
+.hp-row-note {
+  display: block;
+  margin-top: 2px;
+  font-size: 0.86em;
+  color: var(--hp-dim-text);
+  letter-spacing: 0.01em;
+}
+.hp-list-tag {
+  white-space: nowrap;
+  min-width: 72px;
+  text-align: center;
+  font-weight: 600;
+  border: 1px solid var(--hp-card-border);
+}
+.hp-list-row-compact .hp-list-tag {
+  min-width: 66px;
+  font-size: 0.78em;
+  padding: 1px 6px;
+}
+.hp-quiet-list > .hp-card {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--hp-card-border);
+  border-radius: 0;
+  margin: 0;
+  padding: 0.42em 0 !important;
+  gap: 0.55em !important;
+}
+.hp-quiet-list > .hp-card:last-child {
+  border-bottom: 0;
+}
+.hp-quiet-list > .hp-card .hp-tag {
+  min-width: 66px;
+  text-align: center;
+  border: 1px solid var(--hp-card-border);
+  font-size: 0.78em !important;
+  padding: 1px 6px !important;
+}
+.hp-quiet-list > .hp-card div {
+  font-size: 0.86em !important;
+}
+.hp-quiet-list .hp-year-badge {
+  background: transparent;
+  color: var(--hp-dim-text);
+  padding: 0;
+  font-size: 0.82em;
+}
 .hp-icon-box {
   flex-shrink: 0;
   width: 52px; min-height: 52px;
@@ -69,6 +148,11 @@ html[data-theme="dark"] {
   background: var(--hp-card-border); color: var(--hp-muted-text);
   border-radius: 4px; padding: 1px 10px;
   font-size: 0.85em; font-weight: bold; white-space: nowrap;
+}
+.hp-year-small {
+  color: var(--hp-dim-text);
+  font-size: 0.86em;
+  white-space: nowrap;
 }
 .hp-img-slot {
   flex-shrink: 0;
@@ -137,7 +221,7 @@ Educations
 Projects & Exploring
 ======
 
-<div class="hp-card" style="border-top:3px solid var(--hp-accent); display:flex; align-items:flex-start;">
+<div class="hp-card hp-feature-card">
   <div style="flex:1; min-width:0;">
     <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.3em;">
       <span style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">FusionVis: A complex studying platform for college students</span>
@@ -162,7 +246,7 @@ Projects & Exploring
   </div>
 </div>
 
-<div class="hp-card" style="border-top:3px solid var(--hp-accent); display:flex; align-items:flex-start;">
+<div class="hp-card hp-feature-card">
   <div style="flex:1; min-width:0;">
     <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.3em;">
       <span style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">K-Ranking: An overall exploration based on Open-Digger data.</span>
@@ -252,7 +336,7 @@ COMING SOON... -->
 Publications
 ======
 
-<div class="hp-card" style="border-left:4px solid var(--hp-accent); display:flex; align-items:flex-start;">
+<div class="hp-card hp-feature-card">
   <div style="flex:1; min-width:0;">
     <div style="font-weight:bold; font-size:1em; line-height:1.5; color:var(--hp-body-text);">
       FusionVis: A One-Stop Platform for Learning Document Processing [Short Name: FusionVis] V1.0
@@ -411,38 +495,38 @@ Use hp-year-badge-muted instead of hp-year-badge for less prominent entries.
 Certificates & Abilities
 ======
 
-<div class="hp-card" style="padding:0.6em 1em; display:flex; flex-direction:column; gap:0;">
+<div class="hp-card hp-list-card" style="padding:0.85em 1.1em;">
 
 
 
-  <div style="display:flex; align-items:center; gap:0.6em; padding:0.45em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
-    <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">IELTS</span>
-    <span style="flex:1; color:var(--hp-body-text);">English — IELTS 7.5</span>
+  <div class="hp-list-row" style="font-size:0.96em;">
+    <span class="hp-tag hp-list-tag">IELTS</span>
+    <span class="hp-row-text">English — IELTS 7.5</span>
   </div>
 
-  <div style="display:flex; align-items:center; gap:0.6em; padding:0.45em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
-    <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">CN-CET6</span>
-    <span style="flex:1; color:var(--hp-body-text);">English — CET-6 651</span>
+  <div class="hp-list-row" style="font-size:0.96em;">
+    <span class="hp-tag hp-list-tag">CN-CET6</span>
+    <span class="hp-row-text">English — CET-6 651</span>
   </div>
 
-  <div style="display:flex; align-items:center; gap:0.6em; padding:0.45em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
-    <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">CN-BETT</span>
-    <span style="flex:1; color:var(--hp-body-text);">Elementary English Translator </span>
+  <div class="hp-list-row" style="font-size:0.96em;">
+    <span class="hp-tag hp-list-tag">CN-BETT</span>
+    <span class="hp-row-text">Elementary English Translator </span>
   </div>
 
-  <div style="display:flex; align-items:center; gap:0.6em; padding:0.45em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
-    <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">CN-NCRE</span>
-    <span style="flex:1; color:var(--hp-body-text);">Well-done in C Programming</span>
+  <div class="hp-list-row" style="font-size:0.96em;">
+    <span class="hp-tag hp-list-tag">CN-NCRE</span>
+    <span class="hp-row-text">Well-done in C Programming</span>
   </div>
 
-  <div style="display:flex; align-items:center; gap:0.6em; padding:0.45em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
-    <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">CN-Mandarin</span>
-    <span style="flex:1; color:var(--hp-body-text);">Mandarin Level II, Grade A</span>
+  <div class="hp-list-row" style="font-size:0.96em;">
+    <span class="hp-tag hp-list-tag">CN-Mandarin</span>
+    <span class="hp-row-text">Mandarin Level II, Grade A</span>
   </div>
 
-  <div style="display:flex; align-items:center; gap:0.6em; padding:0.45em 0; border-bottom:1px solid var(--hp-card-border); font-size:0.91em;">
-    <span class="hp-tag" style="font-size:0.77em; padding:1px 7px; white-space:nowrap;">CN-NTCE</span>
-    <span style="flex:1; color:var(--hp-body-text);">English Teacher Certificate, Senior High School Level</span>
+  <div class="hp-list-row" style="font-size:0.96em;">
+    <span class="hp-tag hp-list-tag">CN-NTCE</span>
+    <span class="hp-row-text">English Teacher Certificate, Senior High School Level</span>
   </div>
 
 </div>
@@ -474,7 +558,7 @@ Notes:
 
 Other Honors
 ======
-<div class="hp-card" style="padding:0.6em 1em; display:flex; flex-direction:column; gap:0;">
+<div class="hp-card hp-list-card hp-quiet-list">
 
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Honor</span>
