@@ -115,7 +115,7 @@ Educations
     <div style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">East China Normal University</div>
     <div style="color:var(--hp-muted-text); font-size:0.93em;">B.E. in Data Science and Big Data Technology</div>
     <div style="color:var(--hp-dim-text); font-size:0.88em;">Sep. 2023 – Jun. 2027 (expected) &nbsp;|&nbsp; Shanghai, China</div>
-    <div style="margin-top:0.3em; font-size:0.9em; color:var(--hp-body-text);">GPA: PRIVATE FOR NOW &nbsp;·&nbsp; Advisor: <a href="https://shuyang96.github.io/">Yang Shu</a>, <a href="https://faculty.ecnu.edu.cn/_s37/cyh2/main.psp">Yuhao Chen</a>, <a href="#">Shuying Xing</a></div>
+    <div style="margin-top:0.3em; font-size:0.9em; color:var(--hp-body-text);">GPA: PRIVATE FOR NOW &nbsp;·&nbsp; Advisor: <a href="https://shuyang96.github.io/">Yang Shu</a>, <a href="https://faculty.ecnu.edu.cn/_s37/cyh2/main.psp">Yuhao Chen</a> </div>
   </div>
 </div>
 
@@ -155,7 +155,6 @@ Projects & Exploring
       <span class="hp-tag">VUE3</span>
       &nbsp;
       <a href="https://github.com/BronsonLau/FusionVis" style="font-size:0.88em;">[Code]</a>
-      <a href="#" style="font-size:0.88em; margin-left:6px;">[Website]</a>
     </div>
   </div>
   <div class="hp-img-slot">
@@ -260,6 +259,9 @@ Publications
     </div>
     <div style="color:var(--hp-muted-text); font-size:0.9em; margin:0.2em 0;">
       <strong>China Software Copyright</strong> &nbsp;|&nbsp; Registration No.: 2026SR0633721
+    </div>
+    <div style="color:var(--hp-muted-text); font-size:0.9em; margin:0.2em 0;">
+      <strong>Yu Ke</strong>, Zhicheng Xu, Kenan Wang, Yumeng Yan, Chuhe Zhang, Yang Shu*
     </div>
     <div style="color:var(--hp-muted-text); font-size:0.9em; margin:0.2em 0;">
       Copyright Owner: East China Normal University (华东师范大学)
