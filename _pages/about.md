@@ -270,6 +270,69 @@ Projects & Exploring
   </div>
 </div>
 
+<div class="hp-card hp-feature-card">
+  <div style="flex:1; min-width:0;">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.3em;">
+      <span style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">Multimodal Psychological Intelligence Analysis and Interaction System Based on Large Models</span>
+      <span style="color:var(--hp-dim-text); font-size:0.88em;">2025</span>
+    </div>
+    <div style="margin:0.35em 0 0.5em; color:var(--hp-muted-text); font-size:0.93em;">
+      ECNU Undergraduate Innovation and Entrepreneurship Training Program project, successfully completed with an Excellent evaluation.
+      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;Project No. 202510269229X &nbsp;|&nbsp; University-level Innovation Training Project</span>
+      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Ziqian Chen, Jiahong Lv, Jialiang Li, Kenan Wang &nbsp;|&nbsp; Advisors: Jilin Hu, Yao Liu</span>
+    </div>
+    <div>
+      <span class="hp-tag">Large Models</span>
+      <span class="hp-tag">Multimodal</span>
+      <span class="hp-tag">Psychology</span>
+      <span class="hp-tag">ECNU DCTP</span>
+    </div>
+  </div>
+  <div class="hp-img-slot">ECNU<br>Cert.</div>
+</div>
+
+<div class="hp-card hp-feature-card">
+  <div style="flex:1; min-width:0;">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.3em;">
+      <span style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">Yiyanghui: A Pioneer in Inclusive Family Elderly Care Financial Planning Services</span>
+      <span style="color:var(--hp-dim-text); font-size:0.88em;">2025</span>
+    </div>
+    <div style="margin:0.35em 0 0.5em; color:var(--hp-muted-text); font-size:0.93em;">
+      ECNU Undergraduate Innovation and Entrepreneurship Training Program project, successfully completed with a Good evaluation.
+      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;Project No. 202510269147S &nbsp;|&nbsp; Municipal-level Innovation Training Project</span>
+      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Yuzhen Chen, Kaiyu Zeng, Hanchun Yang, Jingqi Gao &nbsp;|&nbsp; Advisor: Jinfei Lu</span>
+    </div>
+    <div>
+      <span class="hp-tag">FinTech</span>
+      <span class="hp-tag">Elderly Care</span>
+      <span class="hp-tag">Public Service</span>
+      <span class="hp-tag">ECNU DCTP</span>
+    </div>
+  </div>
+  <div class="hp-img-slot">ECNU<br>Cert.</div>
+</div>
+
+<div class="hp-card hp-feature-card">
+  <div style="flex:1; min-width:0;">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.3em;">
+      <span style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">OpenSinging: Accompaniment Auto-Following Model Based on Audio Recognition</span>
+      <span style="color:var(--hp-dim-text); font-size:0.88em;">2026</span>
+    </div>
+    <div style="margin:0.35em 0 0.5em; color:var(--hp-muted-text); font-size:0.93em;">
+      ECNU Undergraduate Innovation and Entrepreneurship Training Program project, successfully completed with a Good evaluation.
+      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;Project No. 202610269374S &nbsp;|&nbsp; Municipal-level Innovation Training Project</span>
+      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Chunkai Pan, Yuquan Sun, Ya Yu, Ziyou Zhuang &nbsp;|&nbsp; Advisor: Yanbin Zhang</span>
+    </div>
+    <div>
+      <span class="hp-tag">Audio Recognition</span>
+      <span class="hp-tag">Music AI</span>
+      <span class="hp-tag">Accompaniment</span>
+      <span class="hp-tag">ECNU DCTP</span>
+    </div>
+  </div>
+  <div class="hp-img-slot">ECNU<br>Cert.</div>
+</div>
+
 
 <!-- PROJECT TEMPLATE:
 
