@@ -513,7 +513,7 @@ Academic Honors
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
     Winning Award &nbsp;·&nbsp; “Challenge Cup” National College Student Business Plan Competition of China (East China Normal University Division)
-    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;<strong>Yu Ke</strong>, Kenan Wang, Zhicheng Xu, Yumeng Yan, Huimin Chen, Ziming Jian, Chuhe Zhang</span>
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;"><strong>Yu Ke</strong>, Kenan Wang, Zhicheng Xu, Yumeng Yan, Huimin Chen, Ziming Jian, Chuhe Zhang</span>
   </div>
   <span class="hp-year-badge">2026</span>
 </div>
@@ -522,7 +522,7 @@ Academic Honors
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
     Successful Participant &nbsp;·&nbsp; Mathematical Contest in Modeling 
-    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;<strong>Yu Ke</strong>, Kenan Wang, Chenyu Li</span>
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;"><strong>Yu Ke</strong>, Kenan Wang, Chenyu Li</span>
   </div>
   <span class="hp-year-badge">2026</span>
 </div>
@@ -670,7 +670,7 @@ Other Honors
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
     Champion &nbsp;·&nbsp; School of Data Science and Engineering @ECNU Badminton competition, Mixed Doubles
-    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;<strong>Yu Ke#</strong>, Chenyu Li#</span>
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;"><strong>Yu Ke#</strong>, Chenyu Li#</span>
   </div>
   <span class="hp-year-badge">2026</span>
 </div>
