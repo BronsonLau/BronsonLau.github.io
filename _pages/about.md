@@ -290,7 +290,8 @@ Projects & Exploring
     </div>
     <div style="margin:0.35em 0 0.5em; color:var(--hp-muted-text); font-size:0.93em;">
       We developed a comprehensive platform for college students to aggregate their Powerpoint files and academic reading materials to explore complex topics with ease.
-    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;"><strong>Yu Ke</strong>, Zhicheng Xu, Kenan Wang, Yumeng Yan, Chuhe Zhang</span>      
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;"><strong>Yu Ke</strong>, Zhicheng Xu, Kenan Wang, Yumeng Yan, Chuhe Zhang</span>
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Country-level Innovation Training Project</span>      
     <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">China Software Copyright: FusionVis: A One-Stop Platform for Learning Document Processing [Short Name: FusionVis] V1.0</span>
     </div>
     <div>
@@ -340,7 +341,7 @@ Projects & Exploring
     <div style="margin:0.35em 0 0.5em; color:var(--hp-muted-text); font-size:0.93em;">
       We developed a multimodal system for analyzing and interacting with psychological intelligence, which can gather information of different modals and utilize them well,  based on large models.
       <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">University-level Innovation Training Project</span>
-      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Ziqian Chen, Jiahong Lv, Jialiang Li,<strong>Yu Ke</strong>, Kenan Wang &nbsp;|&nbsp; Advisors: Jilin Hu, Yao Liu</span>
+      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Ziqian Chen, Jiahong Lv, Jialiang Li, <strong>Yu Ke</strong>, Kenan Wang &nbsp;|&nbsp; Advisors: Jilin Hu, Yao Liu</span>
     </div>
     <div>
       <span class="hp-tag">Large Models</span>
@@ -503,7 +504,7 @@ Academic Honors
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
     Third Prize &nbsp;·&nbsp; China Undergraduate Mathematical Contest in Modeling (Shanghai Division)
-    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Ziqian Chen, Zeyan Li</span>
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;"><strong>Yu Ke</strong>, Ziqian Chen, Zeyan Li</span>
   </div>
   <span class="hp-year-badge">2025</span>
 </div>
@@ -512,7 +513,7 @@ Academic Honors
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
     Winning Award &nbsp;·&nbsp; “Challenge Cup” National College Student Business Plan Competition of China (East China Normal University Division)
-    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Kenan Wang, Zhicheng Xu, Yumeng Yan, Huimin Chen, Ziming Jian, Chuhe Zhang</span>
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;<strong>Yu Ke</strong>, Kenan Wang, Zhicheng Xu, Yumeng Yan, Huimin Chen, Ziming Jian, Chuhe Zhang</span>
   </div>
   <span class="hp-year-badge">2026</span>
 </div>
@@ -521,7 +522,7 @@ Academic Honors
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
     Successful Participant &nbsp;·&nbsp; Mathematical Contest in Modeling 
-    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Kenan Wang, Chenyu Li</span>
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;<strong>Yu Ke</strong>, Kenan Wang, Chenyu Li</span>
   </div>
   <span class="hp-year-badge">2026</span>
 </div>
@@ -530,7 +531,7 @@ Academic Honors
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
     Excellence Award &nbsp;·&nbsp; National College Student Computer System Capability Contest - Operating System Design Competition - OS Principles(East China Division)
-    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Qiyu Song, Shutong Ma</span>
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Qiyu Song, Shutong Ma, <strong>Yu Ke</strong></span>
   </div>
   <span class="hp-year-badge">2024</span>
 </div>
@@ -539,7 +540,7 @@ Academic Honors
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
     Third Prize &nbsp;·&nbsp; The 2nd Open Atom Competition OpenRank Open Source Digital Ecosystem Analysis and Application Innovation Contest
-    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Kenan Wang</span>
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;"><strong>Yu Ke</strong>, Kenan Wang</span>
   </div>
   <span class="hp-year-badge">2024</span>
 </div>
@@ -651,7 +652,7 @@ Other Honors
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">First Prize(Ranking 2) &nbsp;·&nbsp; 2024 Outstanding General Education Course Assignment Selection in East China Normal University
-  <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;advised by/ Linyang Yu</span>
+  <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;Advisor: Linyang Yu</span>
   </div>
   <span class="hp-year-badge">2025</span>
 </div>
@@ -660,7 +661,7 @@ Other Honors
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Excellent Prize &nbsp;·&nbsp; The 5th National College English Vocabulary Competition of the “The world of English” Cup
-  <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;advised by/ Wei Wei</span>
+  <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;Advisor: Wei Wei</span>
   </div>
   <span class="hp-year-badge">2025</span>
 </div>
@@ -669,7 +670,7 @@ Other Honors
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
     Champion &nbsp;·&nbsp; School of Data Science and Engineering @ECNU Badminton competition, Mixed Doubles
-    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;w/ Chenyu Li</span>
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;<strong>Yu Ke#</strong>, Chenyu Li#</span>
   </div>
   <span class="hp-year-badge">2026</span>
 </div>
