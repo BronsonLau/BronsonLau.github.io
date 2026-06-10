@@ -3,8 +3,9 @@ permalink: /
 title: "Yu Ke(柯宇/Bronson Lau)"
 author_profile: true
 visitor_map_html: |
-  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=CCKR6mdGqmfIpW6rf80GN1rchF8zIP3AkQehoujn2ho&cl=ffffff&w=a"></script>
-visitor_count_html: ""
+  <img src="https://mapmyvisitors.com/map.png?cl=ffffff&w=a&t=n&d=CCKR6mdGqmfIpW6rf80GN1rchF8zIP3AkQehoujn2ho" alt="Visitor map">
+visitor_count_html: |
+  <img src="https://s01.flagcounter.com/count2/B3BE/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0">
 redirect_from: 
   - /about/
   - /about.html
@@ -722,7 +723,6 @@ Other Honors
 <div class="hp-visitor-map">
   <div class="hp-visitor-map__header">
     <span>Visitor Map</span>
-    <span>Counts and country-level location estimates</span>
   </div>
   <div class="hp-visitor-map__grid">
     {% if page.visitor_count_html and page.visitor_count_html != "" %}
