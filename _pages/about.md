@@ -3,9 +3,9 @@ permalink: /
 title: "Yu Ke(柯宇/Bronson Lau)"
 author_profile: true
 visitor_map_html: |
-  <img src="https://mapmyvisitors.com/map.png?cl=ffffff&w=a&t=n&d=CCKR6mdGqmfIpW6rf80GN1rchF8zIP3AkQehoujn2ho" alt="Visitor map">
+  <a href="https://mapmyvisitors.com/web/1c5bd" title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?cl=ffffff&w=a&t=n&d=CCKR6mdGqmfIpW6rf80GN1rchF8zIP3AkQehoujn2ho" /></a>
 visitor_count_html: |
-  <img src="https://s01.flagcounter.com/count2/B3BE/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0">
+  <a href="https://info.flagcounter.com/Ubt1"><img src="https://s01.flagcounter.com/count2/Ubt1/bg_FFFFFF/txt_000000/border_CCCCCC/columns_8/maxflags_12/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
 redirect_from: 
   - /about/
   - /about.html
