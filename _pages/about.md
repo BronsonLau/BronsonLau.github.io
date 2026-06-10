@@ -2,6 +2,9 @@
 permalink: /
 title: "Yu Ke(柯宇/Bronson Lau)"
 author_profile: true
+visitor_map_html: |
+  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=CCKR6mdGqmfIpW6rf80GN1rchF8zIP3AkQehoujn2ho&cl=ffffff&w=a"></script>
+visitor_count_html: ""
 redirect_from: 
   - /about/
   - /about.html
@@ -164,6 +167,43 @@ html[data-theme="dark"] {
   display: flex; align-items: center; justify-content: center;
   font-size: 0.72em; color: var(--hp-dim-text);
 }
+.hp-visitor-map {
+  margin-top: 2.2em;
+  padding-top: 1em;
+  border-top: 1px solid var(--hp-card-border);
+}
+.hp-visitor-map__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.7em;
+  color: var(--hp-dim-text);
+  font-size: 0.82em;
+}
+.hp-visitor-map__canvas {
+  display: flex;
+  justify-content: center;
+  min-height: 120px;
+  overflow: hidden;
+}
+.hp-visitor-map__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 0.9em;
+}
+.hp-visitor-map__panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8em;
+  border: 1px solid var(--hp-card-border);
+  border-radius: 6px;
+  background: var(--hp-card-bg);
+  min-height: 120px;
+  overflow: hidden;
+}
+.hp-visitor-map__panel :is(img, iframe, svg) {
+  max-width: 100%;
+}
 </style>
 
 <!-- 🫡 News【TEMPLATE】
@@ -179,6 +219,7 @@ COMING SOON... -->
     🎉 One paper accepted to <em>Conference / Journal Name</em>!
   </p>
 </div>
+
 
 <div style="border-left:3px solid var(--hp-accent); padding-left:1em; margin:0.5em 0;">
   <p style="margin:0.2em 0; color:var(--hp-body-text);">
@@ -676,3 +717,24 @@ Other Honors
 </div>
 
 </div>
+
+{% if (page.visitor_map_html and page.visitor_map_html != "") or (page.visitor_count_html and page.visitor_count_html != "") %}
+<div class="hp-visitor-map">
+  <div class="hp-visitor-map__header">
+    <span>Visitor Map</span>
+    <span>Counts and country-level location estimates</span>
+  </div>
+  <div class="hp-visitor-map__grid">
+    {% if page.visitor_count_html and page.visitor_count_html != "" %}
+    <div class="hp-visitor-map__panel">
+      {{ page.visitor_count_html }}
+    </div>
+    {% endif %}
+    {% if page.visitor_map_html and page.visitor_map_html != "" %}
+    <div class="hp-visitor-map__panel">
+      {{ page.visitor_map_html }}
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endif %}

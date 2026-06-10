@@ -13,4 +13,11 @@
     await mermaid.run({querySelector:'code.language-mermaid'});
 </script>
 
+{% comment %} Visitor map include: renders if `visitor_map` is configured in _config.yml {% endcomment %}
+{% if site.visitor_map and site.visitor_map.enabled %}
+    <div class="site-visitor-map" style="max-width:640px;margin:1em auto; text-align:center;">
+        {% include visitor-map.html %}
+    </div>
+{% endif %}
+
 <!-- end custom footer snippets -->

@@ -1,0 +1,31 @@
+{% comment %} Generic visitor map include. It supports several providers configured via `site.visitor_map.provider` in _config.yml.
+   Providers example:
+   - "plausible": include Plausible's embeddable iframe/snippet (requires Plausible account and site)
+   - "statcounter": include StatCounter embed code
+   - "custom": output raw HTML from `site.visitor_map.custom_html`
+%}
+
+{% assign provider = site.visitor_map.provider | default: "custom" %}
+
+{% if provider == "plausible" %}
+  {% if site.visitor_map.plausible_embed %}
+    {{ site.visitor_map.plausible_embed }}
+  {% else %}
+    <!-- Plausible configured but no `plausible_embed` found in _config.yml -->
+  {% endif %}
+
+{% elsif provider == "statcounter" %}
+  {% if site.visitor_map.statcounter_embed %}
+    {{ site.visitor_map.statcounter_embed }}
+  {% else %}
+    <!-- StatCounter configured but no `statcounter_embed` found in _config.yml -->
+  {% endif %}
+
+{% else %}
+  {% if site.visitor_map.custom_html %}
+    {{ site.visitor_map.custom_html }}
+  {% else %}
+    <!-- No visitor map HTML configured. Add `visitor_map` settings to _config.yml -->
+  {% endif %}
+
+{% endif %}

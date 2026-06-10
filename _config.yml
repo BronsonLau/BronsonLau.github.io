@@ -159,6 +159,26 @@ analytics:
   google:
     tracking_id          :
 
+# Visitor map / counter configuration
+# Usage: set `visitor_map.enabled: true` and choose a `provider`.
+# - provider: "plausible" (recommended) — sign up at plausible.io and paste the embeddable snippet into `plausible_embed`.
+# - provider: "statcounter" — sign up at statcounter.com and paste the embed script into `statcounter_embed`.
+# - provider: "custom" — paste arbitrary HTML for the widget into `custom_html`.
+visitor_map:
+  enabled: false
+  provider: "custom" # plausible | statcounter | custom
+  # Example: Plausible (paste the iframe/snippet as a YAML multi-line string)
+  # plausible_embed: |
+  #   <script defer data-domain="yourdomain.com" src="https://plausible.io/js/plausible.js"></script>
+
+  # Example: StatCounter (paste your StatCounter embed code)
+  # statcounter_embed: |
+  #   <!-- StatCounter code here -->
+
+  # Example: custom raw HTML (simple world-map iframe or your own embed)
+  # custom_html: |
+  #   <iframe src="https://example.com/your-map-embed" width="600" height="300" style="border:0"></iframe>
+
 
 # Reading Files
 include:
