@@ -178,7 +178,6 @@ html[data-theme="dark"] {
     right: max(8px, calc((100vw - 1280px) / 2));
     transform: translateY(-50%);
     width: 168px;
-    max-height: calc(100vh - 110px);
     overflow: auto;
     z-index: 30;
     padding: 0.55em 0.6em 0.5em;
