@@ -4,8 +4,6 @@ title: "Yu Ke(柯宇/Bronson Lau)"
 author_profile: true
 visitor_map_html: |
   <a href="https://mapmyvisitors.com/web/1c5bd" title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?cl=ffffff&w=a&t=n&d=CCKR6mdGqmfIpW6rf80GN1rchF8zIP3AkQehoujn2ho" /></a>
-visitor_count_html: |
-  <a href="https://info.flagcounter.com/Ubt1"><img src="https://s01.flagcounter.com/count2/Ubt1/bg_FFFFFF/txt_000000/border_CCCCCC/columns_8/maxflags_12/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
 redirect_from: 
   - /about/
   - /about.html
@@ -168,42 +166,65 @@ html[data-theme="dark"] {
   display: flex; align-items: center; justify-content: center;
   font-size: 0.72em; color: var(--hp-dim-text);
 }
-.hp-visitor-map {
-  margin-top: 2.2em;
-  padding-top: 1em;
-  border-top: 1px solid var(--hp-card-border);
+/* ── Visitor dock: fixed in the right gutter on wide screens ── */
+.hp-visitor-dock {
+  display: none;            /* hidden on narrow / mobile screens */
 }
-.hp-visitor-map__header {
+@media (min-width: 1200px) {
+  .hp-visitor-dock {
+    display: block;
+    position: fixed;
+    top: 50%;
+    right: max(8px, calc((100vw - 1280px) / 2));
+    transform: translateY(-50%);
+    width: 168px;
+    max-height: calc(100vh - 110px);
+    overflow: auto;
+    z-index: 30;
+    padding: 0.55em 0.6em 0.5em;
+    background: var(--hp-card-bg);
+    border: 1px solid var(--hp-card-border);
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.10);
+  }
+}
+.hp-visitor-dock__title {
+  font-size: 0.7em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--hp-dim-text);
+  text-align: center;
+  margin-bottom: 0.45em;
+}
+.hp-visitor-dock__map {
+  display: flex;
+  justify-content: center;
+}
+.hp-visitor-dock__map :is(img, iframe, svg) {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+.hp-visitor-dock__count {
+  margin-top: 0.55em;
+  padding-top: 0.5em;
+  border-top: 1px solid var(--hp-card-border);
+  display: flex;
+  flex-direction: column;
+  gap: 0.28em;
+}
+.hp-visitor-dock__row {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 0.7em;
-  color: var(--hp-dim-text);
-  font-size: 0.82em;
+  align-items: baseline;
+  font-size: 0.78em;
+  color: var(--hp-muted-text);
 }
-.hp-visitor-map__canvas {
-  display: flex;
-  justify-content: center;
-  min-height: 120px;
-  overflow: hidden;
-}
-.hp-visitor-map__grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 0.9em;
-}
-.hp-visitor-map__panel {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0.8em;
-  border: 1px solid var(--hp-card-border);
-  border-radius: 6px;
-  background: var(--hp-card-bg);
-  min-height: 120px;
-  overflow: hidden;
-}
-.hp-visitor-map__panel :is(img, iframe, svg) {
-  max-width: 100%;
+.hp-visitor-dock__num {
+  font-weight: 700;
+  color: var(--hp-accent);
+  font-variant-numeric: tabular-nums;
 }
 </style>
 
@@ -719,22 +740,16 @@ Other Honors
 
 </div>
 
-{% if (page.visitor_map_html and page.visitor_map_html != "") or (page.visitor_count_html and page.visitor_count_html != "") %}
-<div class="hp-visitor-map">
-  <div class="hp-visitor-map__header">
-    <span>Visitor Map</span>
+{% if page.visitor_map_html and page.visitor_map_html != "" %}
+<aside class="hp-visitor-dock" aria-label="Visitor statistics">
+  <div class="hp-visitor-dock__title">Visitors</div>
+  <div class="hp-visitor-dock__map">{{ page.visitor_map_html }}</div>
+  <div class="hp-visitor-dock__count">
+    <span class="hp-visitor-dock__row"><span>Views</span><span class="hp-visitor-dock__num" id="vercount_value_site_pv">…</span></span>
+    <span class="hp-visitor-dock__row"><span>Unique</span><span class="hp-visitor-dock__num" id="vercount_value_site_uv">…</span></span>
   </div>
-  <div class="hp-visitor-map__grid">
-    {% if page.visitor_count_html and page.visitor_count_html != "" %}
-    <div class="hp-visitor-map__panel">
-      {{ page.visitor_count_html }}
-    </div>
-    {% endif %}
-    {% if page.visitor_map_html and page.visitor_map_html != "" %}
-    <div class="hp-visitor-map__panel">
-      {{ page.visitor_map_html }}
-    </div>
-    {% endif %}
-  </div>
-</div>
+</aside>
+<!-- Visit counter: VerCount (drop-in Busuanzi replacement). China-accelerated endpoint;
+     swap to https://events.vercount.one/js for the global Vercel CDN. -->
+<script defer src="https://cn.vercount.one/js"></script>
 {% endif %}

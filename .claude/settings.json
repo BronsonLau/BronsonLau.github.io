@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:williamlwj.github.io)",
-      "WebFetch(domain:karobben.github.io)"
+      "WebFetch(domain:karobben.github.io)",
+      "Bash(grep -rln '$x-large:\\\\|$large:\\\\|$max-width:\\\\|$right-sidebar-width:' _sass/)",
+      "Bash(grep -rn '$x-large:\\\\|$large:\\\\|$medium:\\\\|$max-width:\\\\|$right-sidebar-width\\\\|$sidebar-link-max-width' _sass/)",
+      "Bash(grep -rn '$x-large\\\\|$large\\\\|$medium\\\\|$max-width\\\\|$right-sidebar\\\\|$sidebar-link' _sass/)"
     ]
   }
 }
