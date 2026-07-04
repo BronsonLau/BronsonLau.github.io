@@ -307,6 +307,25 @@ Publications
   </div>
 </div>
 
+<div class="hp-card hp-feature-card">
+  <div style="flex:1; min-width:0;">
+    <div style="font-weight:bold; font-size:1em; line-height:1.5; color:var(--hp-body-text);">
+      [Title to be added]
+    </div>
+    <div style="color:var(--hp-muted-text); font-size:0.9em; margin:0.2em 0;">
+      <strong>Yu Ke</strong>, Co-author(s): [To be added]
+    </div>
+    <div style="margin:0.3em 0;">
+      <span class="hp-tag" style="border:1px solid var(--hp-card-border);">Published</span>
+      &nbsp;<em style="color:var(--hp-muted-text); font-size:0.88em;">Proceedings of the 12th ECNU Undergraduate Academic Forum, 2026</em>
+    </div>
+    <div style="color:var(--hp-dim-text); font-size:0.85em; margin-top:0.35em;">
+      Publication details, pages, link, and advisor: [To be added]
+    </div>
+  </div>
+  <div class="hp-img-slot">Details<br>TBD</div>
+</div>
+
 <!-- PUBLICATION TEMPLATE:
 
 <div class="hp-card" style="border-left:4px solid var(--hp-accent); display:flex; align-items:flex-start;">
@@ -340,6 +359,29 @@ Publications
 
 
 
+
+Talks
+======
+
+<div class="hp-card hp-feature-card">
+  <div style="flex:1; min-width:0;">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.3em;">
+      <span style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">Excellent Presentation Award, 12th ECNU Undergraduate Innovation Academic Forum</span>
+      <span style="color:var(--hp-dim-text); font-size:0.88em;">2026</span>
+    </div>
+    <div style="margin:0.35em 0 0.5em; color:var(--hp-muted-text); font-size:0.93em;">
+      Presentation title, session, date, and venue: [To be added]
+      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;"><strong>Yu Ke</strong>, Teammate(s): [To be added]</span>
+      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Advisor(s): [To be added]</span>
+    </div>
+    <div>
+      <span class="hp-tag">Talk</span>
+      <span class="hp-tag">Excellent Presentation</span>
+      <span class="hp-tag">ECNU</span>
+    </div>
+  </div>
+  <div class="hp-img-slot">Details<br>TBD</div>
+</div>
 
 Projects
 ======
@@ -560,6 +602,17 @@ Academic Honors
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Honor</span>
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Outstanding Student &nbsp;·&nbsp; East China Normal University</div>
   <span class="hp-year-badge">2024</span>
+</div>
+
+<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
+  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
+    Silver Award &nbsp;·&nbsp; 2026 China International College Students' Innovation Competition (ECNU Competition)
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Project: [To be added]</span>
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;"><strong>Yu Ke</strong>, Teammate(s): [To be added]</span>
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Advisor(s): [To be added]</span>
+  </div>
+  <span class="hp-year-badge">2026</span>
 </div>
 
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
