@@ -320,7 +320,7 @@ Publications
       &nbsp;<em style="color:var(--hp-muted-text); font-size:0.88em;">Proceedings of the 12th ECNU Undergraduate Academic Forum, 2026(Poster)</em>
     </div>
     <div style="color:var(--hp-dim-text); font-size:0.85em; margin-top:0.35em;">
-            <a href="https://github.com/BronsonLau/FusionVis" style="font-size:0.88em;">[Code]</a>
+            <a href="" style="font-size:0.88em;">[Paper(Chinese)]</a>
     </div>
   </div>
   <div class="hp-img-slot">ECNU</div>
