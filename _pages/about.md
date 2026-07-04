@@ -310,20 +310,20 @@ Publications
 <div class="hp-card hp-feature-card">
   <div style="flex:1; min-width:0;">
     <div style="font-weight:bold; font-size:1em; line-height:1.5; color:var(--hp-body-text);">
-      [Title to be added]
+      FusionVis: An Intelligent Platform for Document Understanding(FusionVis智能文档理解平台)
     </div>
     <div style="color:var(--hp-muted-text); font-size:0.9em; margin:0.2em 0;">
-      <strong>Yu Ke</strong>, Co-author(s): [To be added]
+      <strong>Yu Ke</strong>, Kenan Wang, Zhicheng Xu, Yumeng Yan, Chuhe Zhang, Yang Shu*
     </div>
     <div style="margin:0.3em 0;">
       <span class="hp-tag" style="border:1px solid var(--hp-card-border);">Published</span>
-      &nbsp;<em style="color:var(--hp-muted-text); font-size:0.88em;">Proceedings of the 12th ECNU Undergraduate Academic Forum, 2026</em>
+      &nbsp;<em style="color:var(--hp-muted-text); font-size:0.88em;">Proceedings of the 12th ECNU Undergraduate Academic Forum, 2026(Poster)</em>
     </div>
     <div style="color:var(--hp-dim-text); font-size:0.85em; margin-top:0.35em;">
-      Publication details, pages, link, and advisor: [To be added]
+            <a href="https://github.com/BronsonLau/FusionVis" style="font-size:0.88em;">[Code]</a>
     </div>
   </div>
-  <div class="hp-img-slot">Details<br>TBD</div>
+  <div class="hp-img-slot">ECNU</div>
 </div>
 
 <!-- PUBLICATION TEMPLATE:
@@ -370,9 +370,9 @@ Talks
       <span style="color:var(--hp-dim-text); font-size:0.88em;">2026</span>
     </div>
     <div style="margin:0.35em 0 0.5em; color:var(--hp-muted-text); font-size:0.93em;">
-      Presentation title, session, date, and venue: [To be added]
-      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;"><strong>Yu Ke</strong>, Teammate(s): [To be added]</span>
-      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Advisor(s): [To be added]</span>
+      FusionVis: An Intelligent Platform for Document Understanding(FusionVis智能文档理解平台), Session A1, 27/06/2026, and venue: East China Normal University 
+      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;"><strong>Yu Ke</strong>, Zhicheng Xu</span>
+      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Advisor(s): Yang Shu</span>
     </div>
     <div>
       <span class="hp-tag">Talk</span>
@@ -380,7 +380,7 @@ Talks
       <span class="hp-tag">ECNU</span>
     </div>
   </div>
-  <div class="hp-img-slot">Details<br>TBD</div>
+  <div class="hp-img-slot">ECNU</div>
 </div>
 
 Projects
@@ -608,9 +608,8 @@ Academic Honors
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
     Silver Award &nbsp;·&nbsp; 2026 China International College Students' Innovation Competition (ECNU Competition)
-    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Project: [To be added]</span>
-    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;"><strong>Yu Ke</strong>, Teammate(s): [To be added]</span>
-    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Advisor(s): [To be added]</span>
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;"><strong>Yu Ke</strong>, Kenan Wang, Zhicheng Xu, Yumeng Yan, Huimin Chen, Ziming Jian, Chuhe Zhang, Chenyu Li</span>
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Advisor(s): Yang Shu, Yuhao Chen</span>
   </div>
   <span class="hp-year-badge">2026</span>
 </div>
