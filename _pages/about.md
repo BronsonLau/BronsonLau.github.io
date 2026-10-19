@@ -504,13 +504,13 @@ Internships
   <!-- <div class="hp-icon-box">Co.<br>Name</div> -->
   <div class="hp-card-main">
     <div class="hp-card-head">
-      <div style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">Western Securities of China</div>
+      <div style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">Western Securities Co., Ltd.(China)</div>
       <div class="hp-corner-contact">
         <span class="hp-contact-label">Mentor</span>
         <a href="#">Dr. Jiarui Feng</a>
       </div>
     </div>
-    <div style="font-size:0.93em; color:var(--hp-body-text);">Intern Researcher &nbsp;·&nbsp; <span style="color:var(--hp-muted-text);">Financial Engineering Team</span></div>
+    <div style="font-size:0.93em; color:var(--hp-body-text);">Intern Financial Researcher &nbsp;·&nbsp; <span style="color:var(--hp-muted-text);">Financial Engineering Team</span></div>
     <div style="color:var(--hp-dim-text); font-size:0.88em;">Oct. 2026 – Present &nbsp;|&nbsp; Shanghai, China</div>
     <div style="margin-top:0.35em; font-size:0.9em; color:var(--hp-muted-text);">
       Conducting analytical experiments on high frequency data and developing high-effectiveness data for future experiments.
