@@ -131,6 +131,18 @@ html[data-theme="dark"] {
   align-items: end;
   gap: 1em;
 }
+.hp-contact-footer {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 1em;
+  margin-top: 0.35em;
+}
+.hp-contact-only-row {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3px;
+}
 @media (max-width: 560px) {
   .hp-experience-card {
     grid-template-columns: 1fr;
@@ -358,7 +370,13 @@ Educations
     <div style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">East China Normal University</div>
     <div style="color:var(--hp-muted-text); font-size:0.93em;">B.E. in Data Science and Big Data Technology</div>
     <div style="color:var(--hp-dim-text); font-size:0.88em;">Sep. 2023 – Jun. 2027 (expected) &nbsp;|&nbsp; Shanghai, China</div>
-    <div style="margin-top:0.3em; font-size:0.9em; color:var(--hp-body-text);">GPA: 3.88/4.00 Rank:4/73 &nbsp;·&nbsp; Advisor: <a href="https://shuyang96.github.io/">Yang Shu</a>, <a href="https://faculty.ecnu.edu.cn/_s37/cyh2/main.psp">Yuhao Chen</a> </div>
+    <div class="hp-contact-footer">
+      <div style="font-size:0.9em; color:var(--hp-body-text);">GPA: 3.88/4.00 Rank:4/73</div>
+      <div class="hp-corner-contact">
+        <span class="hp-contact-label">Advisors</span>
+        <span><a href="https://shuyang96.github.io/">Yang Shu</a>, <a href="https://faculty.ecnu.edu.cn/_s37/cyh2/main.psp">Yuhao Chen</a></span>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -370,7 +388,13 @@ Educations
     <div style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">University / Institution Name</div>
     <div style="color:var(--hp-muted-text); font-size:0.93em;">Degree in Major Name</div>
     <div style="color:var(--hp-dim-text); font-size:0.88em;">Sep. 20XX – Jun. 20XX &nbsp;|&nbsp; City, Country</div>
-    <div style="margin-top:0.3em; font-size:0.9em; color:var(--hp-body-text);">GPA: X.XX / 4.0 &nbsp;·&nbsp; Advisor: <a href="#">Prof. Name</a></div>
+    <div class="hp-contact-footer">
+      <div style="font-size:0.9em; color:var(--hp-body-text);">GPA: X.XX / 4.0</div>
+      <div class="hp-corner-contact">
+        <span class="hp-contact-label">Advisor</span>
+        <a href="#">Prof. Name</a>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -660,12 +684,18 @@ Projects
     <div style="margin:0.35em 0 0.5em; color:var(--hp-muted-text); font-size:0.93em;">
       We developed a multimodal system for analyzing and interacting with psychological intelligence, which can gather information of different modals and utilize them well,  based on large models.
       <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">University-level Innovation Training Project</span>
-      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Ziqian Chen, Jiahong Lv, Jialiang Li, <strong>Yu Ke</strong>, Kenan Wang &nbsp;|&nbsp; Advisors: Jilin Hu, Yao Liu</span>
+      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Ziqian Chen, Jiahong Lv, Jialiang Li, <strong>Yu Ke</strong>, Kenan Wang</span>
     </div>
-    <div>
-      <span class="hp-tag">Large Models</span>
-      <span class="hp-tag">Multimodal</span>
-      <span class="hp-tag">Psychology</span>
+    <div class="hp-contact-footer">
+      <div>
+        <span class="hp-tag">Large Models</span>
+        <span class="hp-tag">Multimodal</span>
+        <span class="hp-tag">Psychology</span>
+      </div>
+      <div class="hp-corner-contact">
+        <span class="hp-contact-label">Advisors</span>
+        <span>Jilin Hu, Yao Liu</span>
+      </div>
     </div>
   </div>
   <div class="hp-img-slot">ECNU<br>Cert.</div>
@@ -680,13 +710,19 @@ Projects
     <div style="margin:0.35em 0 0.5em; color:var(--hp-muted-text); font-size:0.93em;">
       We developed a financial planning service for elderly families, which can help them manage their financial situation and make better decisions.
       <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Municipal-level Innovation Training Project</span>
-      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Yuzhen Chen, Kaiyu Zeng, Hanchun Yang, Jingqi Gao, <strong>Yu Ke</strong> &nbsp;|&nbsp; Advisor: Jinfei Lu</span>
+      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Yuzhen Chen, Kaiyu Zeng, Hanchun Yang, Jingqi Gao, <strong>Yu Ke</strong></span>
     </div>
-    <div>
-      <span class="hp-tag">FinTech</span>
-      <span class="hp-tag">Cyber Security</span>
-      <span class="hp-tag">Elderly Care</span>
-      <span class="hp-tag">Public Service</span>
+    <div class="hp-contact-footer">
+      <div>
+        <span class="hp-tag">FinTech</span>
+        <span class="hp-tag">Cyber Security</span>
+        <span class="hp-tag">Elderly Care</span>
+        <span class="hp-tag">Public Service</span>
+      </div>
+      <div class="hp-corner-contact">
+        <span class="hp-contact-label">Advisor</span>
+        <span>Jinfei Lu</span>
+      </div>
     </div>
   </div>
   <div class="hp-img-slot">ECNU<br>Cert.</div>
@@ -701,12 +737,18 @@ Projects
     <div style="margin:0.35em 0 0.5em; color:var(--hp-muted-text); font-size:0.93em;">
       We developed a model for automatic accompaniment following based on audio recognition, which can automatically follow the music and singers' performances.
       <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp; Municipal-level Innovation Training Project</span>
-      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Chunkai Pan, <strong>Yu Ke</strong>, Yuquan Sun, Ya Yu, Ziyou Zhuang &nbsp;|&nbsp; Advisor: Yanbin Zhang</span>
+      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Chunkai Pan, <strong>Yu Ke</strong>, Yuquan Sun, Ya Yu, Ziyou Zhuang</span>
     </div>
-    <div>
-      <span class="hp-tag">Audio Recognition</span>
-      <span class="hp-tag">Music AI</span>
-      <span class="hp-tag">Accompaniment</span>
+    <div class="hp-contact-footer">
+      <div>
+        <span class="hp-tag">Audio Recognition</span>
+        <span class="hp-tag">Music AI</span>
+        <span class="hp-tag">Accompaniment</span>
+      </div>
+      <div class="hp-corner-contact">
+        <span class="hp-contact-label">Advisor</span>
+        <span>Yanbin Zhang</span>
+      </div>
     </div>
   </div>
   <div class="hp-img-slot">ECNU<br>Cert.</div>
@@ -801,7 +843,12 @@ Academic Honors
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
     Silver Award &nbsp;·&nbsp; 2026 China International College Students' Innovation Competition (ECNU Competition)
     <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;"><strong>Yu Ke</strong>, Kenan Wang, Zhicheng Xu, Yumeng Yan, Huimin Chen, Ziming Jian, Chuhe Zhang, Chenyu Li</span>
-    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Advisor(s): Yang Shu, Yuhao Chen</span>
+    <div class="hp-contact-only-row">
+      <div class="hp-corner-contact">
+        <span class="hp-contact-label">Advisors</span>
+        <span>Yang Shu, Yuhao Chen</span>
+      </div>
+    </div>
   </div>
   <span class="hp-year-badge">2026</span>
 </div>
@@ -820,6 +867,12 @@ Academic Honors
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
     Winning Award &nbsp;·&nbsp; “Challenge Cup” National College Student Business Plan Competition of China (East China Normal University Division)
     <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;"><strong>Yu Ke</strong>, Kenan Wang, Zhicheng Xu, Yumeng Yan, Huimin Chen, Ziming Jian, Chuhe Zhang</span>
+    <div class="hp-contact-only-row">
+      <div class="hp-corner-contact">
+        <span class="hp-contact-label">Advisors</span>
+        <span>Yang Shu, Yanbin Zhang</span>
+      </div>
+    </div>
   </div>
   <span class="hp-year-badge">2026</span>
 </div>
@@ -836,8 +889,29 @@ Academic Honors
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
+    Excellence Award &nbsp;·&nbsp; National College Student Computer System Capability Contest - Operating System Design Competition
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Chenyu Li, <strong>Yu Ke</strong>, Kenan Wang</span>
+    <div class="hp-contact-only-row">
+      <div class="hp-corner-contact">
+        <span class="hp-contact-label">Advisor</span>
+        <span>Chen Xu</span>
+      </div>
+    </div>
+  </div>
+  <span class="hp-year-badge">2026</span>
+</div>
+
+<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
+  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
     Excellence Award &nbsp;·&nbsp; National College Student Computer System Capability Contest - Operating System Design Competition - OS Principles(East China Division)
     <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Qiyu Song, Shutong Ma, <strong>Yu Ke</strong></span>
+    <div class="hp-contact-only-row">
+      <div class="hp-corner-contact">
+        <span class="hp-contact-label">Advisor</span>
+        <span>Liang Shi</span>
+      </div>
+    </div>
   </div>
   <span class="hp-year-badge">2024</span>
 </div>
@@ -874,12 +948,17 @@ Talks
     <div style="margin:0.35em 0 0.5em; color:var(--hp-muted-text); font-size:0.93em;">
       FusionVis: An Intelligent Platform for Document Understanding(FusionVis智能文档理解平台), Session A1, 27/06/2026, and venue: East China Normal University
       <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;"><strong>Yu Ke</strong>, Zhicheng Xu, Kenan Wang</span>
-      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Advisor(s): Yang Shu</span>
     </div>
-    <div>
-      <span class="hp-tag">Talk</span>
-      <span class="hp-tag">Excellent Presentation</span>
-      <span class="hp-tag">ECNU</span>
+    <div class="hp-contact-footer">
+      <div>
+        <span class="hp-tag">Talk</span>
+        <span class="hp-tag">Excellent Presentation</span>
+        <span class="hp-tag">ECNU</span>
+      </div>
+      <div class="hp-corner-contact">
+        <span class="hp-contact-label">Advisor</span>
+        <span>Yang Shu</span>
+      </div>
     </div>
   </div>
   <div class="hp-img-slot">ECNU</div>
@@ -981,7 +1060,12 @@ Other Honors
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">First Prize(Ranking 2) &nbsp;·&nbsp; 2024 Outstanding General Education Course Assignment Selection in East China Normal University
-  <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;Advisor: Linyang Yu</span>
+    <div class="hp-contact-only-row">
+      <div class="hp-corner-contact">
+        <span class="hp-contact-label">Advisor</span>
+        <span>Linyang Yu</span>
+      </div>
+    </div>
   </div>
   <span class="hp-year-badge">2025</span>
 </div>
@@ -990,7 +1074,12 @@ Other Honors
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">Excellent Prize &nbsp;·&nbsp; The 5th National College English Vocabulary Competition of the “The world of English” Cup
-  <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">&#x2767;&ensp;Advisor: Wei Wei</span>
+    <div class="hp-contact-only-row">
+      <div class="hp-corner-contact">
+        <span class="hp-contact-label">Advisor</span>
+        <span>Wei Wei</span>
+      </div>
+    </div>
   </div>
   <span class="hp-year-badge">2025</span>
 </div>
