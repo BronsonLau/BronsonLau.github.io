@@ -420,7 +420,7 @@ Research & Exchange Experiences
       </div>
       <div class="hp-corner-contact">
         <span class="hp-contact-label">Supervisor</span>
-        <a href="https://shuyang96.github.io/">Associate Prof. Yang Shu</a>
+        <a href="https://shuyang96.github.io/">Yang Shu</a>
       </div>
     </div>
   </div>
@@ -442,7 +442,7 @@ Research & Exchange Experiences
       </div>
       <div class="hp-corner-contact">
         <span class="hp-contact-label">Supervisor</span>
-        <a href="https://faculty.ecnu.edu.cn/_s37/cyh2/main.psp">Engineer. Yuhao Chen</a>
+        <a href="https://faculty.ecnu.edu.cn/_s37/cyh2/main.psp">Yuhao Chen</a>
       </div>
     </div>
   </div>
@@ -464,7 +464,7 @@ Research & Exchange Experiences
       </div>
       <div class="hp-corner-contact">
         <span class="hp-contact-label">Supervisor</span>
-        <a href="https://www.lamda.nju.edu.cn/yehj/">Associate Prof. Han-jia Ye</a>
+        <a href="https://www.lamda.nju.edu.cn/yehj/">Han-jia Ye</a>
       </div>
     </div>
   </div>
