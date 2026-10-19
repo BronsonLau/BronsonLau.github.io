@@ -9,7 +9,11 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a third-year undergraduate student studying in School of Data Science and Engineering @East China Normal University(ECNU) and I am currently doing research under the supervision of associate professor [Yang Shu](https://shuyang96.github.io/) and studying more about Time Series Problems & Multimodal Model & Agent & a little CV.
+I am currently a third-year undergraduate student studying in [School of Data Science and Engineering](https://dase.ecnu.edu.cn/) at [East China Normal University(ECNU)](https://www.ecnu.edu.cn/). 
+
+I am fortune enough to enjoy a wonderful research experience in transfer learning in time domain data under the supervision of associate professor [Yang Shu](https://shuyang96.github.io/) and make contribution on computer science education via developing new AI native technology with engineer [Yuhao Chen](https://faculty.ecnu.edu.cn/_s37/cyh2/main.psp)
+
+Also, I am struggle to study more about Agent(Memory/Retrieval/...) & Time Series Problems & Multimodal Model & Agent & a little CV(VLM/VLA/Diffusion).
 
 Feel free to contact me via Email.
 
@@ -261,7 +265,7 @@ Educations
     <div style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">East China Normal University</div>
     <div style="color:var(--hp-muted-text); font-size:0.93em;">B.E. in Data Science and Big Data Technology</div>
     <div style="color:var(--hp-dim-text); font-size:0.88em;">Sep. 2023 – Jun. 2027 (expected) &nbsp;|&nbsp; Shanghai, China</div>
-    <div style="margin-top:0.3em; font-size:0.9em; color:var(--hp-body-text);">GPA: PRIVATE FOR NOW &nbsp;·&nbsp; Advisor: <a href="https://shuyang96.github.io/">Yang Shu</a>, <a href="https://faculty.ecnu.edu.cn/_s37/cyh2/main.psp">Yuhao Chen</a> </div>
+    <div style="margin-top:0.3em; font-size:0.9em; color:var(--hp-body-text);">GPA: 3.88/4.00 Rank:4/73 &nbsp;·&nbsp; Advisor: <a href="https://shuyang96.github.io/">Yang Shu</a>, <a href="https://faculty.ecnu.edu.cn/_s37/cyh2/main.psp">Yuhao Chen</a> </div>
   </div>
 </div>
 
@@ -560,10 +564,20 @@ COMING SOON... -->
 -->
 
 
-<!-- Internships
+Internships
 ======
-
-COMING SOON... -->
+<div class="hp-card" style="display:flex; align-items:flex-start; padding:1em;">
+  <!-- <div class="hp-icon-box">Co.<br>Name</div> -->
+  <div>
+    <div style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">Western Securities of China</div>
+    <div style="font-size:0.93em; color:var(--hp-body-text);">Intern Researcher &nbsp;·&nbsp; <span style="color:var(--hp-muted-text);">Financial Engineering Team</span></div>
+    <div style="color:var(--hp-dim-text); font-size:0.88em;">Oct. 2026 – Present &nbsp;|&nbsp; Shanghai, China</div>
+    <div style="margin-top:0.35em; font-size:0.9em; color:var(--hp-muted-text);">
+      Conducting analytical experiments on high frequency data and developing high-effectiveness data for future experiments.
+      Supervisor: <a href="#">Dr. Jiarui Feng</a>
+    </div>
+  </div>
+</div>
 
 <!-- INTERNSHIP TEMPLATE:
 
