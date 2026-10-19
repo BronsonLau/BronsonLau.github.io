@@ -453,7 +453,7 @@ Research & Exchange Experiences
   <div class="hp-card-main">
     <div class="hp-experience-head">
       <div>
-        <div class="hp-experience-title">LAMDA lab @Nanjing University</div>
+        <div class="hp-experience-title">LAMDA Research Group(Tabular&Adaptation Team) @Nanjing University</div>
         <div class="hp-experience-role">Research Assistant &nbsp;·&nbsp; Deep Learning in tabular data</div>
       </div>
       <span class="hp-year-small">Time: 2026.05 — 2026.07 &nbsp;|&nbsp; Nanjing, China</span>
