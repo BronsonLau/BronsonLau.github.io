@@ -11,7 +11,7 @@ redirect_from:
 
 I am currently a third-year undergraduate student studying in [School of Data Science and Engineering](https://dase.ecnu.edu.cn/) at [East China Normal University(ECNU)](https://www.ecnu.edu.cn/). 
 
-I am fortune enough to enjoy a wonderful research experience in transfer learning under the supervision of associate professor [Yang Shu](https://shuyang96.github.io/) and make contribution on computer science education via developing new AI native technology with engineer [Yuhao Chen](https://faculty.ecnu.edu.cn/_s37/cyh2/main.psp)
+I am fortune enough to enjoy a wonderful research experience in transfer learning under the supervision of associate professor [Yang Shu](https://shuyang96.github.io/) and making contribution on computer science education via developing new AI native technology with engineer [Yuhao Chen](https://faculty.ecnu.edu.cn/_s37/cyh2/main.psp)
 
 Also, I am struggle to study more about Agent(Memory/Retrieval/...) & Time Series Problems & Multimodal Model & Agent & a little CV(VLM/VLA/Diffusion).
 
@@ -47,11 +47,11 @@ html[data-theme="dark"] {
   background: var(--hp-card-bg);
   border: 1px solid var(--hp-card-border);
   border-radius: 6px;
+  box-shadow: inset 0 3px 0 var(--hp-accent);
   margin: 0.8em 0;
   padding: 0.9em 1.1em;
 }
 .hp-feature-card {
-  border-top: 3px solid var(--hp-accent);
   display: flex;
   align-items: flex-start;
 }
@@ -59,37 +59,36 @@ html[data-theme="dark"] {
   flex: 1;
   min-width: 0;
 }
-.hp-mentor-row {
-  display: flex;
-  align-items: center;
-  gap: 0.55em;
-  margin-top: 0.72em;
-  padding-top: 0.58em;
-  border-top: 1px solid var(--hp-card-border);
-  color: var(--hp-muted-text);
-  font-size: 0.86em;
+.hp-card-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 0.8em;
 }
-.hp-mentor-label {
+.hp-corner-contact {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.45em;
+  color: var(--hp-muted-text);
+  font-size: 0.82em;
+  line-height: 1.35;
+  text-align: right;
+  white-space: nowrap;
+}
+.hp-contact-label {
   color: var(--hp-dim-text);
-  font-size: 0.76em;
+  font-size: 0.78em;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .hp-experience-card {
-  position: relative;
   display: grid;
   grid-template-columns: 82px minmax(0, 1fr);
   gap: 1em;
   overflow: hidden;
   padding: 1em 1.1em 1em 1.25em;
-}
-.hp-experience-card::before {
-  position: absolute;
-  inset: 0 auto 0 0;
-  width: 4px;
-  background: var(--hp-accent);
-  content: "";
 }
 .hp-experience-kind {
   align-self: start;
@@ -125,6 +124,12 @@ html[data-theme="dark"] {
   color: var(--hp-body-text);
   font-size: 0.9em;
   line-height: 1.55;
+}
+.hp-experience-footer {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 1em;
 }
 @media (max-width: 560px) {
   .hp-experience-card {
@@ -193,6 +198,7 @@ html[data-theme="dark"] {
   border: 0;
   border-bottom: 1px solid var(--hp-card-border);
   border-radius: 0;
+  box-shadow: none;
   margin: 0;
   padding: 0.42em 0 !important;
   gap: 0.55em !important;
@@ -384,12 +390,14 @@ Research & Exchange Experiences
       </div>
       <span class="hp-year-small">Time: 2025.06 — present &nbsp;|&nbsp; Shanghai, China</span>
     </div>
-    <div class="hp-experience-summary">
-      Exploring transfer learning methods for time-domain data and their applications in data science.
-    </div>
-    <div class="hp-mentor-row">
-      <span class="hp-mentor-label">Supervisor</span>
-      <a href="https://shuyang96.github.io/">Associate Prof. Yang Shu</a>
+    <div class="hp-experience-footer">
+      <div class="hp-experience-summary">
+        Exploring transfer learning methods for time-domain data and their applications in data science.
+      </div>
+      <div class="hp-corner-contact">
+        <span class="hp-contact-label">Supervisor</span>
+        <a href="https://shuyang96.github.io/">Associate Prof. Yang Shu</a>
+      </div>
     </div>
   </div>
 </div>
@@ -404,12 +412,14 @@ Research & Exchange Experiences
       </div>
       <span class="hp-year-small">Time: 2026.07 — present &nbsp;|&nbsp; Shanghai, China</span>
     </div>
-    <div class="hp-experience-summary">
-      Exploring the power of Agents and LLM in education and daily scenarios.
-    </div>
-    <div class="hp-mentor-row">
-      <span class="hp-mentor-label">Supervisor</span>
-      <a href="https://faculty.ecnu.edu.cn/_s37/cyh2/main.psp">Engineer. Yuhao Chen</a>
+    <div class="hp-experience-footer">
+      <div class="hp-experience-summary">
+        Exploring the power of Agents and LLM in education and daily scenarios.
+      </div>
+      <div class="hp-corner-contact">
+        <span class="hp-contact-label">Supervisor</span>
+        <a href="https://faculty.ecnu.edu.cn/_s37/cyh2/main.psp">Engineer. Yuhao Chen</a>
+      </div>
     </div>
   </div>
 </div>
@@ -424,12 +434,14 @@ Research & Exchange Experiences
       </div>
       <span class="hp-year-small">Time: 2026.05 — 2026.07 &nbsp;|&nbsp; Nanjing, China</span>
     </div>
-    <div class="hp-experience-summary">
-      Exploring deep learning method usage in tabular data and adding physical momentum into embeddings.
-    </div>
-    <div class="hp-mentor-row">
-      <span class="hp-mentor-label">Supervisor</span>
-      <a href="https://www.lamda.nju.edu.cn/yehj/">Associate Prof. Han-jia Ye</a>
+    <div class="hp-experience-footer">
+      <div class="hp-experience-summary">
+        Exploring deep learning method usage in tabular data and adding physical momentum into embeddings.
+      </div>
+      <div class="hp-corner-contact">
+        <span class="hp-contact-label">Supervisor</span>
+        <a href="https://www.lamda.nju.edu.cn/yehj/">Associate Prof. Han-jia Ye</a>
+      </div>
     </div>
   </div>
 </div>
@@ -446,12 +458,14 @@ Research & Exchange Experiences
       </div>
       <span class="hp-year-small">Mon. 20XX – Mon. 20XX</span>
     </div>
-    <div class="hp-experience-summary">
-      Briefly describe the research focus, exchange activities, methods, or outcomes.
-    </div>
-    <div class="hp-mentor-row">
-      <span class="hp-mentor-label">Supervisor</span>
-      <a href="#">Prof. Name</a>
+    <div class="hp-experience-footer">
+      <div class="hp-experience-summary">
+        Briefly describe the research focus, exchange activities, methods, or outcomes.
+      </div>
+      <div class="hp-corner-contact">
+        <span class="hp-contact-label">Supervisor</span>
+        <a href="#">Prof. Name</a>
+      </div>
     </div>
   </div>
 </div>
@@ -465,15 +479,17 @@ Internships
 <div class="hp-card" style="display:flex; align-items:flex-start; padding:1em;">
   <!-- <div class="hp-icon-box">Co.<br>Name</div> -->
   <div class="hp-card-main">
-    <div style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">Western Securities of China</div>
+    <div class="hp-card-head">
+      <div style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">Western Securities of China</div>
+      <div class="hp-corner-contact">
+        <span class="hp-contact-label">Mentor</span>
+        <a href="#">Dr. Jiarui Feng</a>
+      </div>
+    </div>
     <div style="font-size:0.93em; color:var(--hp-body-text);">Intern Researcher &nbsp;·&nbsp; <span style="color:var(--hp-muted-text);">Financial Engineering Team</span></div>
     <div style="color:var(--hp-dim-text); font-size:0.88em;">Oct. 2026 – Present &nbsp;|&nbsp; Shanghai, China</div>
     <div style="margin-top:0.35em; font-size:0.9em; color:var(--hp-muted-text);">
       Conducting analytical experiments on high frequency data and developing high-effectiveness data for future experiments.
-    </div>
-    <div class="hp-mentor-row">
-      <span class="hp-mentor-label">Mentor</span>
-      <a href="#">Dr. Jiarui Feng</a>
     </div>
   </div>
 </div>
@@ -483,15 +499,17 @@ Internships
 <div class="hp-card" style="display:flex; align-items:flex-start; padding:1em;">
   <div class="hp-icon-box">Co.<br>Name</div>
   <div class="hp-card-main">
-    <div style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">Company / Lab Name</div>
+    <div class="hp-card-head">
+      <div style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">Company / Lab Name</div>
+      <div class="hp-corner-contact">
+        <span class="hp-contact-label">Mentor</span>
+        <a href="#">Dr. Name</a>
+      </div>
+    </div>
     <div style="font-size:0.93em; color:var(--hp-body-text);">Role / Position Title &nbsp;·&nbsp; <span style="color:var(--hp-muted-text);">Team / Department</span></div>
     <div style="color:var(--hp-dim-text); font-size:0.88em;">Jun. 2025 – Sep. 2025 &nbsp;|&nbsp; City, Country</div>
     <div style="margin-top:0.35em; font-size:0.9em; color:var(--hp-muted-text);">
       Brief description of your work, responsibilities, and key outcomes.
-    </div>
-    <div class="hp-mentor-row">
-      <span class="hp-mentor-label">Mentor</span>
-      <a href="#">Dr. Name</a>
     </div>
   </div>
 </div>
@@ -548,7 +566,7 @@ Publications
 
 <!-- PUBLICATION TEMPLATE:
 
-<div class="hp-card" style="border-left:4px solid var(--hp-accent); display:flex; align-items:flex-start;">
+<div class="hp-card" style="display:flex; align-items:flex-start;">
   <div style="flex:1; min-width:0;">
     <div style="font-weight:bold; font-size:1em; line-height:1.5; color:var(--hp-body-text);">
       Paper Title: A Detailed and Descriptive Title for the Work
@@ -697,7 +715,7 @@ Projects
 
 <!-- PROJECT TEMPLATE:
 
-<div class="hp-card" style="border-top:3px solid var(--hp-accent); display:flex; align-items:flex-start;">
+<div class="hp-card" style="display:flex; align-items:flex-start;">
   <div style="flex:1; min-width:0;">
     <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.3em;">
       <span style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">Project / Exploration Title</span>
