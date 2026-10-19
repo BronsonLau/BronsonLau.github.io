@@ -366,7 +366,7 @@ Educations
 
 <div class="hp-card" style="display:flex; align-items:flex-start; padding:1em;">
   <div class="hp-icon-box">ECNU<br>B.E.</div>
-  <div>
+  <div class="hp-card-main">
     <div style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">East China Normal University</div>
     <div style="color:var(--hp-muted-text); font-size:0.93em;">B.E. in Data Science and Big Data Technology</div>
     <div style="color:var(--hp-dim-text); font-size:0.88em;">Sep. 2023 – Jun. 2027 (expected) &nbsp;|&nbsp; Shanghai, China</div>
@@ -384,7 +384,7 @@ Educations
 
 <div class="hp-card" style="display:flex; align-items:flex-start; padding:1em;">
   <div class="hp-icon-box">Abbr.<br>Deg.</div>
-  <div>
+  <div class="hp-card-main">
     <div style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">University / Institution Name</div>
     <div style="color:var(--hp-muted-text); font-size:0.93em;">Degree in Major Name</div>
     <div style="color:var(--hp-dim-text); font-size:0.88em;">Sep. 20XX – Jun. 20XX &nbsp;|&nbsp; City, Country</div>
