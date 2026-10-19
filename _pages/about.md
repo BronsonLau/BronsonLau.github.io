@@ -13,7 +13,7 @@ I am currently a third-year undergraduate student studying in [School of Data Sc
 
 I am fortune enough to enjoy a wonderful research experience in transfer learning under the supervision of associate professor [Yang Shu](https://shuyang96.github.io/) and making contribution on computer science education via developing new AI native technology with engineer [Yuhao Chen](https://faculty.ecnu.edu.cn/_s37/cyh2/main.psp)
 
-Also, I am struggle to study more about Agent(Memory/Retrieval/...) & Time Series Problems & Multimodal Model & Agent & a little CV(VLM/VLA/Diffusion).
+Also, I am struggle to study more about Agent(Memory/Retrieval/...) & Time Series Problems & Multimodal Model & Agent & CV(VLM/VLA/Diffusion).
 
 Feel free to contact me via Email.
 
