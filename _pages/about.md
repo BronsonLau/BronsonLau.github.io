@@ -11,7 +11,7 @@ redirect_from:
 
 I am currently a third-year undergraduate student studying in [School of Data Science and Engineering](https://dase.ecnu.edu.cn/) at [East China Normal University(ECNU)](https://www.ecnu.edu.cn/). 
 
-I am fortune enough to enjoy a wonderful research experience in transfer learning in time domain data under the supervision of associate professor [Yang Shu](https://shuyang96.github.io/) and make contribution on computer science education via developing new AI native technology with engineer [Yuhao Chen](https://faculty.ecnu.edu.cn/_s37/cyh2/main.psp)
+I am fortune enough to enjoy a wonderful research experience in transfer learning under the supervision of associate professor [Yang Shu](https://shuyang96.github.io/) and make contribution on computer science education via developing new AI native technology with engineer [Yuhao Chen](https://faculty.ecnu.edu.cn/_s37/cyh2/main.psp)
 
 Also, I am struggle to study more about Agent(Memory/Retrieval/...) & Time Series Problems & Multimodal Model & Agent & a little CV(VLM/VLA/Diffusion).
 
@@ -54,6 +54,93 @@ html[data-theme="dark"] {
   border-top: 3px solid var(--hp-accent);
   display: flex;
   align-items: flex-start;
+}
+.hp-card-main {
+  flex: 1;
+  min-width: 0;
+}
+.hp-mentor-row {
+  display: flex;
+  align-items: center;
+  gap: 0.55em;
+  margin-top: 0.72em;
+  padding-top: 0.58em;
+  border-top: 1px solid var(--hp-card-border);
+  color: var(--hp-muted-text);
+  font-size: 0.86em;
+}
+.hp-mentor-label {
+  color: var(--hp-dim-text);
+  font-size: 0.76em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.hp-experience-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: 82px minmax(0, 1fr);
+  gap: 1em;
+  overflow: hidden;
+  padding: 1em 1.1em 1em 1.25em;
+}
+.hp-experience-card::before {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  background: var(--hp-accent);
+  content: "";
+}
+.hp-experience-kind {
+  align-self: start;
+  border: 1px solid var(--hp-card-border);
+  border-radius: 4px;
+  background: var(--hp-tag-bg);
+  color: var(--hp-tag-color);
+  padding: 0.42em 0.5em;
+  font-size: 0.72em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.hp-experience-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.8em;
+}
+.hp-experience-title {
+  color: var(--hp-body-text);
+  font-size: 1.05em;
+  font-weight: 700;
+}
+.hp-experience-role {
+  margin-top: 0.08em;
+  color: var(--hp-muted-text);
+  font-size: 0.91em;
+}
+.hp-experience-summary {
+  margin-top: 0.52em;
+  color: var(--hp-body-text);
+  font-size: 0.9em;
+  line-height: 1.55;
+}
+@media (max-width: 560px) {
+  .hp-experience-card {
+    grid-template-columns: 1fr;
+    gap: 0.65em;
+  }
+  .hp-experience-kind {
+    justify-self: start;
+  }
+  .hp-experience-head {
+    display: block;
+  }
+  .hp-experience-head .hp-year-small {
+    display: block;
+    margin-top: 0.18em;
+  }
 }
 .hp-list-card {
   padding: 0.7em 1em;
@@ -284,6 +371,135 @@ Educations
 -->
 
 
+Research & Exchange Experiences
+======
+
+<div class="hp-card hp-experience-card">
+  <div class="hp-experience-kind">Research</div>
+  <div class="hp-card-main">
+    <div class="hp-experience-head">
+      <div>
+        <div class="hp-experience-title">Decision Intelligence Lab @East China Normal University</div>
+        <div class="hp-experience-role">Research Assistant &nbsp;·&nbsp; Transfer Learning</div>
+      </div>
+      <span class="hp-year-small">Time: 2025.06 — present &nbsp;|&nbsp; Shanghai, China</span>
+    </div>
+    <div class="hp-experience-summary">
+      Exploring transfer learning methods for time-domain data and their applications in data science.
+    </div>
+    <div class="hp-mentor-row">
+      <span class="hp-mentor-label">Supervisor</span>
+      <a href="https://shuyang96.github.io/">Associate Prof. Yang Shu</a>
+    </div>
+  </div>
+</div>
+
+<div class="hp-card hp-experience-card">
+  <div class="hp-experience-kind">Research</div>
+  <div class="hp-card-main">
+    <div class="hp-experience-head">
+      <div>
+        <div class="hp-experience-title">Computer Science Courses Centre @East China Normal University</div>
+        <div class="hp-experience-role">Research Assistant &nbsp;·&nbsp; Transfer Learning</div>
+      </div>
+      <span class="hp-year-small">Time: 2026.07 — present &nbsp;|&nbsp; Shanghai, China</span>
+    </div>
+    <div class="hp-experience-summary">
+      Exploring the power of Agents and LLM in education and daily scenarios.
+    </div>
+    <div class="hp-mentor-row">
+      <span class="hp-mentor-label">Supervisor</span>
+      <a href="https://faculty.ecnu.edu.cn/_s37/cyh2/main.psp">Engineer. Yuhao Chen</a>
+    </div>
+  </div>
+</div>
+
+<div class="hp-card hp-experience-card">
+  <div class="hp-experience-kind">Research</div>
+  <div class="hp-card-main">
+    <div class="hp-experience-head">
+      <div>
+        <div class="hp-experience-title">LAMDA lab @Nanjing University</div>
+        <div class="hp-experience-role">Research Assistant &nbsp;·&nbsp; Deep Learning in tabular data</div>
+      </div>
+      <span class="hp-year-small">Time: 2026.05 — 2026.07 &nbsp;|&nbsp; Nanjing, China</span>
+    </div>
+    <div class="hp-experience-summary">
+      Exploring deep learning method usage in tabular data and adding physical momentum into embeddings.
+    </div>
+    <div class="hp-mentor-row">
+      <span class="hp-mentor-label">Supervisor</span>
+      <a href="https://www.lamda.nju.edu.cn/yehj/">Associate Prof. Han-jia Ye</a>
+    </div>
+  </div>
+</div>
+
+<!-- RESEARCH / EXCHANGE EXPERIENCE TEMPLATE:
+
+<div class="hp-card hp-experience-card">
+  <div class="hp-experience-kind">Research / Exchange</div>
+  <div class="hp-card-main">
+    <div class="hp-experience-head">
+      <div>
+        <div class="hp-experience-title">University / Research Institution</div>
+        <div class="hp-experience-role">Role / Program &nbsp;·&nbsp; Research Area or Department</div>
+      </div>
+      <span class="hp-year-small">Mon. 20XX – Mon. 20XX</span>
+    </div>
+    <div class="hp-experience-summary">
+      Briefly describe the research focus, exchange activities, methods, or outcomes.
+    </div>
+    <div class="hp-mentor-row">
+      <span class="hp-mentor-label">Supervisor</span>
+      <a href="#">Prof. Name</a>
+    </div>
+  </div>
+</div>
+
+-->
+
+
+Internships
+======
+
+<div class="hp-card" style="display:flex; align-items:flex-start; padding:1em;">
+  <!-- <div class="hp-icon-box">Co.<br>Name</div> -->
+  <div class="hp-card-main">
+    <div style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">Western Securities of China</div>
+    <div style="font-size:0.93em; color:var(--hp-body-text);">Intern Researcher &nbsp;·&nbsp; <span style="color:var(--hp-muted-text);">Financial Engineering Team</span></div>
+    <div style="color:var(--hp-dim-text); font-size:0.88em;">Oct. 2026 – Present &nbsp;|&nbsp; Shanghai, China</div>
+    <div style="margin-top:0.35em; font-size:0.9em; color:var(--hp-muted-text);">
+      Conducting analytical experiments on high frequency data and developing high-effectiveness data for future experiments.
+    </div>
+    <div class="hp-mentor-row">
+      <span class="hp-mentor-label">Mentor</span>
+      <a href="#">Dr. Jiarui Feng</a>
+    </div>
+  </div>
+</div>
+
+<!-- INTERNSHIP TEMPLATE:
+
+<div class="hp-card" style="display:flex; align-items:flex-start; padding:1em;">
+  <div class="hp-icon-box">Co.<br>Name</div>
+  <div class="hp-card-main">
+    <div style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">Company / Lab Name</div>
+    <div style="font-size:0.93em; color:var(--hp-body-text);">Role / Position Title &nbsp;·&nbsp; <span style="color:var(--hp-muted-text);">Team / Department</span></div>
+    <div style="color:var(--hp-dim-text); font-size:0.88em;">Jun. 2025 – Sep. 2025 &nbsp;|&nbsp; City, Country</div>
+    <div style="margin-top:0.35em; font-size:0.9em; color:var(--hp-muted-text);">
+      Brief description of your work, responsibilities, and key outcomes.
+    </div>
+    <div class="hp-mentor-row">
+      <span class="hp-mentor-label">Mentor</span>
+      <a href="#">Dr. Name</a>
+    </div>
+  </div>
+</div>
+
+-->
+
+
+
 Publications
 ======
 
@@ -363,29 +579,6 @@ Publications
 
 
 
-
-Talks
-======
-
-<div class="hp-card hp-feature-card">
-  <div style="flex:1; min-width:0;">
-    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.3em;">
-      <span style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">Excellent Presentation Award, 12th ECNU Undergraduate Innovation Academic Forum</span>
-      <span style="color:var(--hp-dim-text); font-size:0.88em;">2026</span>
-    </div>
-    <div style="margin:0.35em 0 0.5em; color:var(--hp-muted-text); font-size:0.93em;">
-      FusionVis: An Intelligent Platform for Document Understanding(FusionVis智能文档理解平台), Session A1, 27/06/2026, and venue: East China Normal University 
-      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;"><strong>Yu Ke</strong>, Zhicheng Xu</span>
-      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Advisor(s): Yang Shu</span>
-    </div>
-    <div>
-      <span class="hp-tag">Talk</span>
-      <span class="hp-tag">Excellent Presentation</span>
-      <span class="hp-tag">ECNU</span>
-    </div>
-  </div>
-  <div class="hp-img-slot">ECNU</div>
-</div>
 
 Projects
 ======
@@ -564,39 +757,6 @@ COMING SOON... -->
 -->
 
 
-Internships
-======
-<div class="hp-card" style="display:flex; align-items:flex-start; padding:1em;">
-  <!-- <div class="hp-icon-box">Co.<br>Name</div> -->
-  <div>
-    <div style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">Western Securities of China</div>
-    <div style="font-size:0.93em; color:var(--hp-body-text);">Intern Researcher &nbsp;·&nbsp; <span style="color:var(--hp-muted-text);">Financial Engineering Team</span></div>
-    <div style="color:var(--hp-dim-text); font-size:0.88em;">Oct. 2026 – Present &nbsp;|&nbsp; Shanghai, China</div>
-    <div style="margin-top:0.35em; font-size:0.9em; color:var(--hp-muted-text);">
-      Conducting analytical experiments on high frequency data and developing high-effectiveness data for future experiments.
-      Supervisor: <a href="#">Dr. Jiarui Feng</a>
-    </div>
-  </div>
-</div>
-
-<!-- INTERNSHIP TEMPLATE:
-
-<div class="hp-card" style="display:flex; align-items:flex-start; padding:1em;">
-  <div class="hp-icon-box">Co.<br>Name</div>
-  <div>
-    <div style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">Company / Lab Name</div>
-    <div style="font-size:0.93em; color:var(--hp-body-text);">Role / Position Title &nbsp;·&nbsp; <span style="color:var(--hp-muted-text);">Team / Department</span></div>
-    <div style="color:var(--hp-dim-text); font-size:0.88em;">Jun. 2025 – Sep. 2025 &nbsp;|&nbsp; City, Country</div>
-    <div style="margin-top:0.35em; font-size:0.9em; color:var(--hp-muted-text);">
-      Brief description of your work, responsibilities, and key outcomes.
-      Supervisor: <a href="#">Dr. Name</a>
-    </div>
-  </div>
-</div>
-
--->
-
-
 Academic Honors
 ======
 
@@ -683,6 +843,29 @@ Academic Honors
 
 Use hp-year-badge-muted instead of hp-year-badge for less prominent entries.
 -->
+
+Talks
+======
+
+<div class="hp-card hp-feature-card">
+  <div style="flex:1; min-width:0;">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.3em;">
+      <span style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">Excellent Presentation Award, 12th ECNU Undergraduate Innovation Academic Forum</span>
+      <span style="color:var(--hp-dim-text); font-size:0.88em;">2026</span>
+    </div>
+    <div style="margin:0.35em 0 0.5em; color:var(--hp-muted-text); font-size:0.93em;">
+      FusionVis: An Intelligent Platform for Document Understanding(FusionVis智能文档理解平台), Session A1, 27/06/2026, and venue: East China Normal University
+      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;"><strong>Yu Ke</strong>, Zhicheng Xu, Kenan Wang</span>
+      <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Advisor(s): Yang Shu</span>
+    </div>
+    <div>
+      <span class="hp-tag">Talk</span>
+      <span class="hp-tag">Excellent Presentation</span>
+      <span class="hp-tag">ECNU</span>
+    </div>
+  </div>
+  <div class="hp-img-slot">ECNU</div>
+</div>
 
 Certificates
 ======
