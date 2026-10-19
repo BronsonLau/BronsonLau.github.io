@@ -507,7 +507,7 @@ Internships
       <div style="font-weight:bold; font-size:1.05em; color:var(--hp-body-text);">Western Securities Co., Ltd.(China)</div>
       <div class="hp-corner-contact">
         <span class="hp-contact-label">Mentor</span>
-        <a href="#">Dr. Jiarui Feng</a>
+        <a href="#">Jiarui Feng</a>
       </div>
     </div>
     <div style="font-size:0.93em; color:var(--hp-body-text);">Intern Financial Researcher &nbsp;·&nbsp; <span style="color:var(--hp-muted-text);">Financial Engineering Team</span></div>
