@@ -510,7 +510,7 @@ Internships
         <a href="#">Jiarui Feng</a>
       </div>
     </div>
-    <div style="font-size:0.93em; color:var(--hp-body-text);">Intern Financial Engineering Researcher &nbsp;·&nbsp; <span style="color:var(--hp-muted-text);">Financial Engineering Team</span></div>
+    <div style="font-size:0.93em; color:var(--hp-body-text);">Intern Financial Engineer(Quant Research) &nbsp;·&nbsp; <span style="color:var(--hp-muted-text);">Financial Engineering Team</span></div>
     <div style="color:var(--hp-dim-text); font-size:0.88em;">Oct. 2026 – Present &nbsp;|&nbsp; Shanghai, China</div>
     <div style="margin-top:0.35em; font-size:0.9em; color:var(--hp-muted-text);">
       Conducting analytical experiments on high frequency data and developing high-effectiveness data for future experiments.
