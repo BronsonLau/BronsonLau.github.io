@@ -275,6 +275,54 @@ html[data-theme="dark"] {
   display: flex; align-items: center; justify-content: center;
   font-size: 0.72em; color: var(--hp-dim-text);
 }
+/* ── In-page section navigation ───────────────────────────── */
+.hp-section-nav {
+  position: sticky;
+  top: var(--hp-masthead-offset, 58px);
+  z-index: 18;
+  margin: 1.2em 0 1em;
+  background: var(--hp-card-bg);
+  border: 1px solid var(--hp-card-border);
+  border-radius: 7px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+.hp-section-nav__inner {
+  display: flex;
+  align-items: center;
+  gap: 0.18em;
+  overflow-x: auto;
+  padding: 0.42em;
+  scrollbar-width: thin;
+  scrollbar-color: var(--hp-card-border) transparent;
+}
+.hp-section-nav a {
+  flex: 0 0 auto;
+  border-radius: 4px;
+  color: var(--hp-muted-text);
+  font-size: 0.77em;
+  font-weight: 600;
+  line-height: 1.35;
+  padding: 0.48em 0.68em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.hp-section-nav a:hover,
+.hp-section-nav a:focus-visible,
+.hp-section-nav a[aria-current="location"] {
+  background: var(--hp-tag-bg);
+  color: var(--hp-tag-color);
+  text-decoration: none;
+}
+.hp-section-nav a:focus-visible {
+  outline: 2px solid var(--hp-accent);
+  outline-offset: 1px;
+}
+.hp-section-anchor {
+  display: block;
+  height: 0;
+  scroll-margin-top: var(--hp-section-offset, 116px);
+  visibility: hidden;
+}
 /* ── Visitor dock: fixed in the right gutter on wide screens ── */
 .hp-visitor-dock {
   display: none;            /* hidden on narrow / mobile screens */
@@ -336,6 +384,20 @@ html[data-theme="dark"] {
 }
 </style>
 
+<nav class="hp-section-nav" aria-label="Homepage sections">
+  <div class="hp-section-nav__inner">
+    <a href="#educations">Educations</a>
+    <a href="#research-exchange">Research &amp; Exchange</a>
+    <a href="#internships">Internships</a>
+    <a href="#publications">Publications</a>
+    <a href="#projects">Projects</a>
+    <a href="#academic-honors">Academic Honors</a>
+    <a href="#talks">Talks</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#other-honors">Other Honors</a>
+  </div>
+</nav>
+
 <!-- 🫡 News【TEMPLATE】
 ======
 COMING SOON... -->
@@ -361,6 +423,7 @@ COMING SOON... -->
 -->
 
 
+<span id="educations" class="hp-section-anchor" aria-hidden="true"></span>
 Educations
 ======
 
@@ -401,6 +464,7 @@ Educations
 -->
 
 
+<span id="research-exchange" class="hp-section-anchor" aria-hidden="true"></span>
 Research & Exchange Experiences
 ======
 
@@ -497,6 +561,7 @@ Research & Exchange Experiences
 -->
 
 
+<span id="internships" class="hp-section-anchor" aria-hidden="true"></span>
 Internships
 ======
 
@@ -542,6 +607,7 @@ Internships
 
 
 
+<span id="publications" class="hp-section-anchor" aria-hidden="true"></span>
 Publications
 ======
 
@@ -622,6 +688,7 @@ Publications
 
 
 
+<span id="projects" class="hp-section-anchor" aria-hidden="true"></span>
 Projects
 ======
 
@@ -817,6 +884,7 @@ COMING SOON... -->
 -->
 
 
+<span id="academic-honors" class="hp-section-anchor" aria-hidden="true"></span>
 Academic Honors
 ======
 
@@ -936,6 +1004,7 @@ Academic Honors
 Use hp-year-badge-muted instead of hp-year-badge for less prominent entries.
 -->
 
+<span id="talks" class="hp-section-anchor" aria-hidden="true"></span>
 Talks
 ======
 
@@ -964,6 +1033,7 @@ Talks
   <div class="hp-img-slot">ECNU</div>
 </div>
 
+<span id="certificates" class="hp-section-anchor" aria-hidden="true"></span>
 Certificates
 ======
 
@@ -1028,6 +1098,7 @@ Notes:
 -->
 
 
+<span id="other-honors" class="hp-section-anchor" aria-hidden="true"></span>
 Other Honors
 ======
 <div class="hp-card hp-list-card hp-quiet-list">
@@ -1094,6 +1165,85 @@ Other Honors
 </div>
 
 </div>
+
+<script>
+(function () {
+  var nav = document.querySelector(".hp-section-nav");
+  if (!nav) return;
+
+  var masthead = document.querySelector(".masthead");
+  var links = Array.prototype.slice.call(nav.querySelectorAll('a[href^="#"]'));
+  var sections = links.map(function (link) {
+    return document.querySelector(link.getAttribute("href"));
+  }).filter(Boolean);
+  var sectionOffset = 116;
+
+  function syncOffsets() {
+    var mastheadHeight = masthead ? Math.ceil(masthead.getBoundingClientRect().height) : 0;
+    document.documentElement.style.setProperty("--hp-masthead-offset", mastheadHeight + "px");
+    sectionOffset = mastheadHeight + Math.ceil(nav.getBoundingClientRect().height) + 12;
+    document.documentElement.style.setProperty("--hp-section-offset", sectionOffset + "px");
+  }
+
+  function scrollToSection(target, behavior) {
+    var targetTop = target.getBoundingClientRect().top + window.pageYOffset - sectionOffset;
+    window.scrollTo({ top: Math.max(0, targetTop), behavior: behavior });
+  }
+
+  function updateCurrentSection() {
+    var probe = window.pageYOffset + sectionOffset + 24;
+    var current = sections[0];
+    sections.forEach(function (section) {
+      var sectionTop = section.getBoundingClientRect().top + window.pageYOffset;
+      if (sectionTop <= probe) current = section;
+    });
+    links.forEach(function (link) {
+      if (current && link.getAttribute("href") === "#" + current.id) {
+        link.setAttribute("aria-current", "location");
+      } else {
+        link.removeAttribute("aria-current");
+      }
+    });
+  }
+
+  links.forEach(function (link) {
+    link.addEventListener("click", function (event) {
+      var target = document.querySelector(link.getAttribute("href"));
+      if (!target) return;
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      syncOffsets();
+      scrollToSection(target, "smooth");
+      history.replaceState(null, "", link.getAttribute("href"));
+      link.setAttribute("aria-current", "location");
+    });
+  });
+
+  var ticking = false;
+  window.addEventListener("scroll", function () {
+    if (ticking) return;
+    ticking = true;
+    window.requestAnimationFrame(function () {
+      updateCurrentSection();
+      ticking = false;
+    });
+  }, { passive: true });
+
+  window.addEventListener("resize", function () {
+    syncOffsets();
+    updateCurrentSection();
+  });
+
+  syncOffsets();
+  updateCurrentSection();
+  if (window.location.hash) {
+    var initialTarget = document.querySelector(window.location.hash);
+    if (initialTarget) window.requestAnimationFrame(function () {
+      scrollToSection(initialTarget, "auto");
+    });
+  }
+})();
+</script>
 
 {% if page.visitor_map_html and page.visitor_map_html != "" %}
 <aside class="hp-visitor-dock" aria-label="Visitor statistics">
