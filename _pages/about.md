@@ -874,6 +874,15 @@ Academic Honors
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
   <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
+    Third Prize &nbsp;·&nbsp; China Undergraduate Mathematical Contest in Modeling (Shanghai Division)
+    <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;">Zhicheng Xu, <strong>Yu Ke</strong>, Chenyu Li</span>
+  </div>
+  <span class="hp-year-badge">2026</span>
+</div>
+
+<div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
+  <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Competition</span>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">
     Winning Award &nbsp;·&nbsp; “Challenge Cup” National College Student Business Plan Competition of China (East China Normal University Division)
     <span style="display:block; margin-top:3px; font-size:0.85em; color:var(--hp-dim-text); letter-spacing:0.01em;"><strong>Yu Ke</strong>, Kenan Wang, Zhicheng Xu, Yumeng Yan, Huimin Chen, Ziming Jian, Chuhe Zhang</span>
     <div class="hp-contact-only-row">
