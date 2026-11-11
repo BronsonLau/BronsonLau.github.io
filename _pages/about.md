@@ -13,7 +13,7 @@ I am currently a third-year undergraduate student studying in [School of Data Sc
 
 I am fortune enough to enjoy a wonderful research experience in transfer learning under the supervision of associate professor [Yang Shu](https://shuyang96.github.io/) and making contribution on computer science education via developing new AI native technology with engineer [Yuhao Chen](https://faculty.ecnu.edu.cn/_s37/cyh2/main.psp)
 
-Also, I am struggling to study more about Agent(Memory/Retrieval/...) & Time Series Problems & Multimodal Model & Agent & CV(VLM/VLA/Diffusion).
+Also, I am trying my best to study more about Agent(Memory/Retrieval/...) & Time Series Problems & Multimodal Model & Agent & CV(VLM/VLA/Diffusion).
 
 Feel free to contact me via Email.
 
@@ -831,7 +831,7 @@ Academic Honors
 
 <div class="hp-card" style="display:flex; align-items:center; gap:0.7em; padding:0.7em 1em;">
   <span class="hp-tag" style="white-space:nowrap; font-size:0.78em; padding:2px 9px; font-weight:600;">Scholarship</span>
-  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">China National Scholarship &nbsp;·&nbsp; MOE of China</div>
+  <div style="flex:1; color:var(--hp-body-text); font-size:0.93em;">China National Scholarship &nbsp;·&nbsp; Ministry of Education, PRC</div>
   <span class="hp-year-badge">2025</span>
 </div>
 
